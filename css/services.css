@@ -166,6 +166,14 @@ header .menu {
       background-color: var(--tertiary);
       margin: 1rem;
       padding: 5rem;
+      transition: all 0.9s;
+    
+    }
+    .hab:hover {
+        transform: scaleY(1.5);
+        background-color: aqua;
+        color: var(--secondary);
+        transition: all 0.9s ;
     }
     .hab h2 { 
         color: var(--secondary);
@@ -176,9 +184,15 @@ header .menu {
         grid-column: span 2;
         background-color: var(--tertiary);
         margin: 1rem;
-        padding: 5rem;
-        
+        padding: 5rem; 
+        transition: all 0.9s; 
       }
+      .resto:hover {
+        transform: scaleY(1.5);
+        background-color: aqua;
+        color: var(--secondary);
+        transition: all 0.9s ease-in-out;
+    }
       .resto h2 { 
           color: var(--secondary);
           text-align: center;
