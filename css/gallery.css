@@ -35,9 +35,12 @@ html {
 
  body {
      background-color: var(--quarter);
-   
-     
- }  
+     color: var(--principal);
+     font-family: var(--font-primary);
+       
+ } 
+ 
+ 
 h1 { font-size: 6.4em;}
 h2 { font-size: 4em;}
 h3 { font-size: 3em;}
@@ -177,7 +180,7 @@ header .menu {
   text-align: center;
   
 }
-.img-grid {
+/* .img-grid {
     justify-content: space-between;  
     align-items: center;
     justify-content: center;
@@ -190,7 +193,7 @@ header .menu {
     background-position: center;
     background-repeat: no-repeat;
     
-}
+} */
 
 
 .title-video {
