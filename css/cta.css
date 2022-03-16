@@ -33,11 +33,12 @@ html {
 }
 
 
- body {
-     background-color: var(--quarter);
-   
-     
- }  
+body {
+    background-color: var(--quarter);
+    color: var(--principal);
+    font-family: var(--font-primary);
+      
+}  
 h1 { font-size: 6.4em;}
 h2 { font-size: 4em;}
 h3 { font-size: 3em;}
@@ -198,7 +199,10 @@ label{
 }
 .value {
     background-color: var(--quarter);
-    padding: 2rem;
+    padding: 2rem;    
+}
+.form-select {
+    width: 60rem;
 }
 .Obs {
     background-color: var(--quarter);
