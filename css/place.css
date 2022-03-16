@@ -154,7 +154,7 @@ header .menu {
     background: url(../asset/Image/backgroundPages.jpg);
     max-width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size:  cover;
     background-attachment: scroll;   
     text-align: center;
@@ -164,18 +164,33 @@ header .menu {
     .hist {
       grid-column: 1 / span 4;
       margin-top: 10rem;
+      transition: all 0.9s;
     }
     .hist h2 { 
         color: var(--secondary);
-        text-align: center;
+        text-align: center;    
+    }
+
+    .hist:hover {
+        transform: scale(1.2);
+        background-color: aqua;
+        color: var(--secondary);
+        transition: all 0.9s ;
     }
     .instal {
         grid-column: 1 / span 4;
         margin-top: 10rem;
+        transition: all 0.9s;
     }
     .instal h2 {
         color: var(--secondary);
         text-align: center;
+    }
+    .instal:hover {
+        transform: scale(1.2);
+        background-color: aqua;
+        color: var(--secondary);
+        transition: all 0.9s ;
     }
     article {
         background-color: var(--tertiary);

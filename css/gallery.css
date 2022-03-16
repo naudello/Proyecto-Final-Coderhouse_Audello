@@ -155,7 +155,7 @@ header .menu {
     padding-top: 220px;
     background: url(../asset/Image/backgroundPages.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size:  cover;
     background-attachment: scroll;   
     text-align: center;

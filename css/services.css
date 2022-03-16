@@ -154,7 +154,7 @@ header .menu {
     background: url(../asset/Image/backgroundPages.jpg);
     max-width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size:  cover;
     background-attachment: scroll;   
     text-align: center;
