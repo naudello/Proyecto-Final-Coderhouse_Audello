@@ -83,7 +83,7 @@ p { font-size: 1.8em;}
 .grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 7.2rem 50rem 1fr 20rem;
+    grid-template-rows: 7.2rem 70rem 1fr 20rem;
     justify-items: center;
     align-items: center;
 }
@@ -148,7 +148,7 @@ header .menu {
 .back {
     grid-column: 1 / 2;
     width: 100%;
-    height: 50rem;
+    height: 70rem;
     left: 0px;
     top: 0px;
     padding-top: 22rem;
