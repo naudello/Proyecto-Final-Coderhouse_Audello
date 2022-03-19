@@ -1,0 +1,54 @@
+header {
+    background-color: var(--principal);
+    grid-column: 1 / span 4;
+    min-width: 100%;
+}
+
+header .navbar {
+    height: 7.2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo {
+    flex-basis: 20%;
+}
+header .logo img {
+    height: 7.2rem;
+    width: auto;
+}
+header .reserv {
+    flex-basis: 20%;
+}
+
+header .menu {
+    flex-basis: 40%;
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+.navbar .menu__links:hover {
+    background-color:  var(--tertiary);
+    color: var(--principal);
+}
+
+.navbar .reserv {
+    padding: 0 2rem;
+    text-align: right;
+}
+
+.navbar .reserv__button {
+    padding: 0.9rem 2.5rem;
+    background-color: var(--tertiary);
+    border: none;
+    border-radius: 5rem;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+.navbar .reserv__button:hover {
+    background-color: #034192;
+}

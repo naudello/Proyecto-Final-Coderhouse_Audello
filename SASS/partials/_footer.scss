@@ -1,0 +1,54 @@
+footer {
+    background-color: var(--secondary);
+    grid-column: 1 / span 4;   
+    width: 100%;
+    height: 20rem;
+    justify-content: space-between;
+    margin-top: 10rem;   
+    background-color: #000000;
+    padding: 2.5rem 10rem;
+    justify-content: space-between;
+}
+footer div {
+    display: inline-block;
+      
+}
+footer section div ul {
+    list-style-type: none;
+}
+footer section div ul li {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--principal);
+    font-size: 1.5em;
+    line-height: 2.5rem;
+} 
+footer section div ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--principal);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+} 
+
+footer form {
+    align-items: center;
+}
+footer form input {
+    text-align: center;
+    margin: 1rem;
+}
+footer form button {
+    background-color: var(--tertiary);
+    color: var(--principal);
+    font-weight: bold;
+    border-radius: 5rem;
+    cursor: pointer;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+footer form button:hover {
+    background-color: #034192;
+}
