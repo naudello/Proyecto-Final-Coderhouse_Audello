@@ -1,54 +1,182 @@
-header {
-    background-color: var(--principal);
-    grid-column: 1 / span 4;
-    min-width: 100%;
+@media only screen and (min-width:1024px) {
+    header {
+        background-color: $principal;
+        grid-column: 1 / span 4;
+        min-width: 100%;
+        .navbar {
+            height: 7.2rem;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            .logo {
+                flex-basis: 20%;
+                img {
+                    height: 7.2rem;
+                    width: auto;
+                }
+            }
+            .reserv {
+                flex-basis: 20%;
+                padding: 0 2rem;
+                text-align: right;
+                &__button {
+                    padding: 0.9rem 2.5rem;
+                    background-color: $tertiary;
+                    border: none;
+                    border-radius: 5rem;
+                    transition: all 0.3s ease-in-out;
+                    color: $principal;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $fifth;
+                    }
+                }
+            }
+            .menu {
+                flex-basis: 40%;
+                justify-content: space-between;
+                font-weight: bold;
+                list-style-type: none;
+                &__links {
+                    text-decoration: none;
+                    font-size: 1.4em;
+                    color: $secondary;
+                    display: inline-block; 
+                    padding: 1rem;  
+                    transition: all 0.3s ease-in-out; 
+                    &:hover {
+                        background-color:  $tertiary;
+                        color: $principal;
+                    }
+                }
+            
+            }    
+        }
+    }    
 }
 
-header .navbar {
-    height: 7.2rem;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    header {
+        background-color: $principal;
+        grid-column: 1 / span 2;
+        min-width: 100%;
+        .navbar {
+            height: 7.2rem;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            .logo {
+                flex-basis: 20%;
+                img {
+                    height: 7.2rem;
+                    width: auto;
+                }
+            }
+            .reserv {
+                flex-basis: 20%;
+                padding: 0 2rem;
+                text-align: right;
+                &__button {
+                    padding: 0.9rem 2.5rem;
+                    background-color: $tertiary;
+                    border: none;
+                    border-radius: 5rem;
+                    transition: all 0.3s ease-in-out;
+                    color: $principal;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $fifth;
+                    }
+                }
+            }
+            .menu {
+                flex-basis: 60%;
+                justify-content: space-between;
+                font-weight: bold;
+                list-style-type: none;
+                &__links {
+                    text-decoration: none;
+                    font-size: 1.4em;
+                    color: $secondary;
+                    display: inline-block; 
+                    padding: 1rem;  
+                    transition: all 0.3s ease-in-out; 
+                    &:hover {
+                        background-color:  $tertiary;
+                        color: $principal;
+                    }
+                }
+              
+            }    
+        }
+        
+    }
 }
-
-header .logo {
-    flex-basis: 20%;
-}
-header .logo img {
-    height: 7.2rem;
-    width: auto;
-}
-header .reserv {
-    flex-basis: 20%;
-}
-
-header .menu {
-    flex-basis: 40%;
-    justify-content: space-between;
-    font-weight: bold;
     
-}
-.navbar .menu__links:hover {
-    background-color:  var(--tertiary);
-    color: var(--principal);
-}
+@media only screen and (max-width: 767px) {
+    header {
+        background-color: $principal;
+        min-width: 100%;
+        display: flex;
+        .navbar {
+            height: auto;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            flex-direction: column;
+            .logo {
+                flex-basis: 33%;
+                img {
+                    height: 7rem;
+                    width: auto;
+                }
+            }
+            .reserv {
+                flex-basis: 33%;
+                padding: 0 2rem;
+                text-align: right;
+                &__button {
+                    padding: 0.9rem 2.5rem;
+                    background-color: $tertiary;
+                    border: none;
+                    border-radius: 5rem;
+                    transition: all 0.3s ease-in-out;
+                    color: $principal;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $fifth;
+                    }
+                }
+            }
+            .menu {
+                flex-basis: 33%;
+                justify-content: space-between;
+                font-weight: bold;
+                list-style-type: none;
+                &__links {
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    color: $secondary;
+                    display: inline-block; 
+                    padding: 1rem;  
+                    transition: all 0.3s ease-in-out; 
+                    &:hover {
+                        background-color:  $tertiary;
+                        color: $principal;
+                    }
+                }
+              
+            }    
+        }
+        
+    }
+}  
 
-.navbar .reserv {
-    padding: 0 2rem;
-    text-align: right;
-}
 
-.navbar .reserv__button {
-    padding: 0.9rem 2.5rem;
-    background-color: var(--tertiary);
-    border: none;
-    border-radius: 5rem;
-    transition: all 0.3s ease-in-out;
-    color: white;
-    font-weight: bold;
-    font-size: 1.4em;
-    cursor: pointer;
-}
-.navbar .reserv__button:hover {
-    background-color: #034192;
-}
+

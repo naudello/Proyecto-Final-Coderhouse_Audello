@@ -11,15 +11,15 @@
 
 html {
     font-size: 62.5%;
-    font-family: var(--font-primary);
-    color: var(--principal);
+    font-family: $font-primary;
+    color: $principal;
 }
 
 
 body {
-    background-color: var(--quarter);
-    color: var(--principal);
-    font-family: var(--font-primary);
+    background-color: $quarter;
+    color: $principal;
+    font-family: $font-primary;
       
 }  
 h1 { font-size: 6.4em;}
