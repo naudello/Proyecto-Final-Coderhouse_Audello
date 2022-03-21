@@ -174,9 +174,12 @@ header .menu {
 
     .hist:hover {
         transform: scale(1.2);
-        background-color: aqua;
+        background-color: rgb(121, 210, 245);
         color: var(--secondary);
         transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
     }
     .instal {
         grid-column: 1 / span 4;
@@ -189,9 +192,12 @@ header .menu {
     }
     .instal:hover {
         transform: scale(1.2);
-        background-color: aqua;
+        background-color: rgb(121, 210, 245);
         color: var(--secondary);
         transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
     }
     article {
         background-color: var(--tertiary);
@@ -209,9 +215,19 @@ header .menu {
     background-color: var(--tertiary);
     margin-bottom: 2rem;
     width: 100%;
+    transition: all 0.9s;
 }
 p {
     line-height: 3rem;
+}
+.ubicacion h2:hover {
+    transform: scale(1.2);
+    background-color: rgb(121, 210, 245);
+    color: var(--secondary);
+    transition: all 0.9s ;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 
