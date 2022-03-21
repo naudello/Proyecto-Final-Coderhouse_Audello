@@ -400,6 +400,16 @@ header .menu {
       background-color: var(--tertiary);
       margin: 1rem;
       padding: 5rem;
+      transition: all 0.9s;
+    }
+    .hab:hover {
+        transform: scaley(1.5);
+        background-color: rgb(121, 210, 245);
+        color: var(--secondary);
+        transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
     }
     .hab h2 { 
         color: var(--secondary);
@@ -411,8 +421,17 @@ header .menu {
         background-color: var(--tertiary);
         margin: 1rem;
         padding: 5rem;
-        
+        transition: all 0.9s;
       }
+      .resto:hover {
+        transform: scaley(1.5);
+        background-color: rgb(121, 210, 245);
+        color: var(--secondary);
+        transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
       .resto h2 { 
           color: var(--secondary);
           text-align: center;
@@ -423,7 +442,17 @@ header .menu {
         margin: 1rem;
         width: 100%;
         padding: 5rem;
+        transition: all 0.9s;
       }
+      .paquetes:hover {
+        transform: scaley(1.5);
+        background-color: rgb(121, 210, 245);
+        color: var(--secondary);
+        transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
       .paquetes h2 { 
           color: var(--secondary);
           text-align: center;
@@ -434,7 +463,17 @@ header .menu {
         margin: 1rem;
         width: 100%;
         padding: 5rem;
+        transition: all 0.9s;
       }
+      .sorteo:hover {
+        transform: scaley(1.5);
+        background-color: rgb(121, 210, 245);
+        color: var(--secondary);
+        transition: all 0.9s ;
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
       .sorteo h2 { 
           color: var(--secondary);
           text-align: center;
