@@ -1,12 +1,241 @@
-/* VARIABLES */
-@import './misc/variables';
+@media only screen and (min-width:1024px) {
+    body{
+	    background-color: $tertiary;
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 7.2rem auto auto auto auto 20rem;
+            justify-items: center;
+            align-items: center;
+            .back {
+                grid-column: 1 / span 4;
+                width: 100%;
+                height: 70rem;
+                left: 0px;
+                top: 0px;
+                padding-top: 22rem;
+                background: url(../asset/Image/backgroundPages.jpg);
+                max-width: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-size:  cover;
+                background-attachment: scroll;   
+                text-align: center;  
+            }
+            .hist {
+                grid-column: 1 / span 4;
+                margin-top: 10rem;
+                transition: all 0.9s;
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(121, 210, 245);
+                    color: $secondary;
+                    transition: all 0.9s ;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                    0 0  0 2px rgb(255,255,255),
+                    0.3em 0.3em 1em rgba(0,0,0,0.3);
+                }
+            }
+            .instal {
+                grid-column: 1 / span 4;
+                margin-top: 10rem;
+                transition: all 0.9s;
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(121, 210, 245);
+                    color: var(--secondary);
+                    transition: all 0.9s ;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                    0 0  0 2px rgb(255,255,255),
+                    0.3em 0.3em 1em rgba(0,0,0,0.3);
+                }   
+            }
+            h2 {
+                color: $secondary;
+                text-align: center;
+            } 
+            article {
+                background-color: $tertiary;
+                width: 100%;
+                padding: 12rem;
+            }
+            p {
+                line-height: 3rem;
+            }
+            .ubicacion {
+                grid-column: 1 / span 4;
+                text-align: center;
+                margin-top: 10rem;
+                width: 100%;
+                h2 {
+                    color: $secondary;
+                    background-color: $tertiary;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                    transition: all 0.9s;
+                    &:hover {
+                        transform: scale(1.2);
+                        background-color: rgb(121, 210, 245);
+                        color: $secondary;
+                        transition: all 0.9s ;
+                        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                        0 0  0 2px rgb(255,255,255),
+                        0.3em 0.3em 1em rgba(0,0,0,0.3);
+                    }
+                  }
+                
+            }
+        }
+    }
+}
 
-/* GLOBALES */
-@import './misc/normalize';
-@import './misc/mixins';
+@media only screen and (min-width: 768px) and (max-width:1023px){
+	
+    body{
+	    background-color: $tertiary;
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 7.2rem auto auto auto auto 20rem;
+            justify-items: center;
+            align-items: center;
+            .back {
+                grid-column: 1 / span 2;
+                width: 100%;
+                height: 50rem;
+                left: 0px;
+                top: 0px;
+                padding-top: 22rem;
+                background: url(../asset/Image/backgroundPages.jpg);
+                max-width: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-size:  cover;
+                background-attachment: scroll;   
+                text-align: center;  
+            }
+            .hist {
+                grid-column: 1 / span 2;
+                margin-top: 2rem;
+                transition: all 0.9s;
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(121, 210, 245);
+                    color: $secondary;
+                    transition: all 0.9s ;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                    0 0  0 2px rgb(255,255,255),
+                    0.3em 0.3em 1em rgba(0,0,0,0.3);
+                }
+            }
+            .instal {
+                grid-column: 1 / span 2;
+                margin-top: 2rem;
+                transition: all 0.9s;
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(121, 210, 245);
+                    color: var(--secondary);
+                    transition: all 0.9s ;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                    0 0  0 2px rgb(255,255,255),
+                    0.3em 0.3em 1em rgba(0,0,0,0.3);
+                }   
+            }
+            h2 {
+                color: $tertiary;
+                text-align: center;
+            } 
+            article {
+                background-color: $secondary;
+                width: 100%;
+                padding: 12rem;
+            }
+            p {
+                line-height: 3rem;
+            }
+            .ubicacion {
+                grid-column: 1 / span 2;
+                text-align: center;
+                margin-top: 10rem;
+                width: 100%;
+                h2 {
+                    color: $secondary;
+                    background-color: $tertiary;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                    transition: all 0.9s;
+                    &:hover {
+                        transform: scale(1.2);
+                        background-color: rgb(121, 210, 245);
+                        color: $secondary;
+                        transition: all 0.9s ;
+                        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                        0 0  0 2px rgb(255,255,255),
+                        0.3em 0.3em 1em rgba(0,0,0,0.3);
+                    }
+                  }
+                
+            }
+        }
+    }
+}
 
-/* PARTIALS */
-@import './partials/header';
-@import './partials/footer';
-
-/*  VISTAS */
+@media only screen and (max-width: 767px) {
+    body{
+	    background-color: $secondary;
+        .grid {
+            display: grid;
+            grid-template-columns: 100%;
+            justify-items: center;
+            align-items: center;
+            .back {
+                grid-column: 1 / 2;
+                width: 100%;
+                height: 50rem;
+                left: 0px;
+                top: 0px;
+                padding-top: 22rem;
+                background: url(../asset/Image/backgroundPages.jpg);
+                max-width: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-size:  cover;
+                background-attachment: scroll;   
+                text-align: center;  
+            }
+            .hist {
+                grid-column: 1 / 2;
+                margin-top: 0.1rem;
+            }
+            .instal {
+                grid-column: 1 / 2;
+                margin-top: 0.1rem; 
+            }
+            h2 {
+                color: $tertiary;
+                text-align: center;
+            } 
+            article {
+                background-color: $secondary;
+                width: 100%;
+                padding: 0.5rem;
+            }
+            p {
+                line-height: 3rem;
+            }
+            .ubicacion {
+                grid-column: 1 / 2;
+                text-align: center;
+                margin-top: 10rem;
+                width: 100%;
+                h2 {
+                    color: $secondary;
+                    background-color: $tertiary;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                }  
+            }
+        }
+    }
+}

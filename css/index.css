@@ -331,7 +331,6 @@ p {
           background-color: #034192; } }
 
 /*  VISTAS */
-/* Vista desktop */
 @media only screen and (min-width: 1024px) {
   body {
     background-color: #e2efff; }
