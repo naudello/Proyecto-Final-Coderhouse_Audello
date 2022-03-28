@@ -823,3 +823,868 @@ p {
           body .grid .section5 article p {
             line-height: 2.5rem;
             font-size: 1.4em; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #e2efff; }
+    body .gridC {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      justify-items: center;
+      align-items: center; }
+      body .gridC .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridC .form {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        padding: 4rem 12rem;
+        width: 100%;
+        color: #000;
+        margin-top: 5rem; }
+        body .gridC .form label {
+          font-size: 2.2em; }
+        body .gridC .form input {
+          background-color: rgba(199, 199, 199, 0.4);
+          border: 0px;
+          text-align: center; }
+        body .gridC .form .dato {
+          background-color: #e2efff;
+          padding: 2rem; }
+          body .gridC .form .dato input {
+            width: 25rem;
+            height: 2.5rem; }
+        body .gridC .form .radio {
+          background-color: #e2efff;
+          padding: 2rem;
+          font-size: 1.5em; }
+          body .gridC .form .radio input {
+            cursor: pointer;
+            height: 2rem; }
+        body .gridC .form .value {
+          background-color: #e2efff;
+          padding: 2rem; }
+        body .gridC .form .form-select {
+          width: 60rem; }
+        body .gridC .form .Obs {
+          background-color: #e2efff;
+          padding: 2rem; }
+          body .gridC .form .Obs textarea {
+            width: 70rem;
+            height: 10rem;
+            background-color: rgba(199, 199, 199, 0.4); }
+        body .gridC .form .nov {
+          color: #fff;
+          padding-top: 4rem; }
+          body .gridC .form .nov input {
+            cursor: pointer; }
+        body .gridC .form .reset {
+          padding: 0.9rem 2.5rem;
+          width: 12rem;
+          background-color: #e2efff;
+          border: none;
+          border-radius: 5rem;
+          transition: all 0.3s ease-in-out;
+          color: #000;
+          font-weight: bold;
+          font-size: 1.4em;
+          cursor: pointer; }
+          body .gridC .form .reset:hover {
+            background-color: #034192;
+            color: #fff; }
+        body .gridC .form .submit {
+          padding: 0.9rem 2.5rem;
+          background-color: #e2efff;
+          border: none;
+          border-radius: 5rem;
+          transition: all 0.3s ease-in-out;
+          color: #000;
+          font-weight: bold;
+          font-size: 1.4em;
+          cursor: pointer; }
+          body .gridC .form .submit:hover {
+            background-color: #034192;
+            color: #fff; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #e2efff; }
+    body .gridC {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 7.2rem 50rem 1fr 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridC .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridC .form {
+        grid-column: 1 / 3;
+        background-color: #1877f2;
+        padding: 2rem;
+        width: 100%;
+        color: #000;
+        margin-top: 5rem; }
+        body .gridC .form label {
+          font-size: 2.2em; }
+        body .gridC .form input {
+          background-color: rgba(199, 199, 199, 0.4);
+          border: 0px;
+          text-align: center; }
+        body .gridC .form .dato {
+          background-color: #e2efff;
+          padding: 2rem; }
+          body .gridC .form .dato input {
+            width: 25rem;
+            height: 2.5rem; }
+        body .gridC .form .radio {
+          background-color: #e2efff;
+          padding: 2rem;
+          font-size: 1.5em; }
+          body .gridC .form .radio input {
+            cursor: pointer;
+            height: 2rem; }
+        body .gridC .form .value {
+          background-color: #e2efff;
+          padding: 2rem; }
+        body .gridC .form .Obs {
+          background-color: #e2efff;
+          padding: 2rem; }
+          body .gridC .form .Obs textarea {
+            width: 100%;
+            height: 10rem;
+            background-color: rgba(199, 199, 199, 0.4); }
+        body .gridC .form .nov {
+          color: #fff;
+          padding-top: 4rem; }
+          body .gridC .form .nov input {
+            cursor: pointer; }
+        body .gridC .form .reset {
+          padding: 0.9rem 2.5rem;
+          background-color: #e2efff;
+          border: none;
+          border-radius: 5rem;
+          transition: all 0.3s ease-in-out;
+          color: #000;
+          font-weight: bold;
+          font-size: 1.4em;
+          cursor: pointer; }
+          body .gridC .form .reset:hover {
+            background-color: #034192;
+            color: #fff; }
+        body .gridC .form .submit {
+          padding: 0.9rem 2.5rem;
+          background-color: #e2efff;
+          border: none;
+          border-radius: 5rem;
+          transition: all 0.3s ease-in-out;
+          color: #000;
+          font-weight: bold;
+          font-size: 1.4em;
+          cursor: pointer; }
+          body .gridC .form .submit:hover {
+            background-color: #034192;
+            color: #fff; } }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #000; }
+    body .gridC {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center; }
+      body .gridC .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridC .form {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        padding: 2rem;
+        width: 100%;
+        color: #000;
+        margin-top: 5rem; }
+        body .gridC .form label {
+          font-size: 2.2em; }
+        body .gridC .form input {
+          background-color: rgba(199, 199, 199, 0.4);
+          border: 0px;
+          text-align: center; }
+      body .gridC .dato {
+        background-color: #e2efff;
+        padding: 2rem; }
+        body .gridC .dato input {
+          width: 25rem;
+          height: 2.5rem; }
+      body .gridC .radio {
+        background-color: #e2efff;
+        padding: 2rem;
+        font-size: 1.5em; }
+        body .gridC .radio input {
+          padding-right: 1rem;
+          cursor: pointer; }
+      body .gridC .value {
+        background-color: #e2efff;
+        padding: 2rem; }
+      body .gridC .form-select {
+        width: auto; }
+      body .gridC .Obs {
+        background-color: #e2efff;
+        padding: 2rem; }
+        body .gridC .Obs textarea {
+          width: 100%;
+          height: 10rem;
+          background-color: rgba(199, 199, 199, 0.4); }
+      body .gridC .nov {
+        color: #fff;
+        padding-top: 4rem; }
+        body .gridC .nov input {
+          cursor: pointer; }
+      body .gridC .reset {
+        padding: 0.9rem 2.5rem;
+        background-color: #e2efff;
+        border: none;
+        border-radius: 5rem;
+        transition: all 0.3s ease-in-out;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.4em;
+        cursor: pointer; }
+        body .gridC .reset:hover {
+          background-color: #034192;
+          color: #fff; }
+      body .gridC .submit {
+        padding: 0.9rem 2.5rem;
+        background-color: #e2efff;
+        border: none;
+        border-radius: 5rem;
+        transition: all 0.3s ease-in-out;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.4em;
+        cursor: pointer; }
+        body .gridC .submit:hover {
+          background-color: #034192;
+          color: #fff; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #e2efff; }
+    body .gridG {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 7.2rem 70rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridG .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridG .title-img {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        width: 60rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .img {
+        grid-column: 1 / span 4;
+        display: flex;
+        text-align: center; }
+      body .gridG .img-grid {
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center; }
+        body .gridG .img-grid picture img {
+          max-width: 300px;
+          max-height: 300px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat; }
+      body .gridG .title-video {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        width: 60rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .video {
+        grid-column: 1 / span 4;
+        text-align: center; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #1877f2; }
+    body .gridG {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 7.2rem 50rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridG .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 220px;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridG .title-img {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        width: 60rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .img {
+        grid-column: 1 / 2;
+        display: flex;
+        text-align: center;
+        padding: 0, 20rem; }
+      body .gridG .img-grid {
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center; }
+        body .gridG .img-grid picture img {
+          max-width: 300px;
+          max-height: 300px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat; }
+      body .gridG .title-video {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        width: 60rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .video {
+        grid-column: 1 / 3;
+        text-align: center; } }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #000; }
+    body .gridG {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center; }
+      body .gridG .back {
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 220px;
+        background: url(../asset/Image/backgroundPages.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridG .title-img {
+        background-color: #1877f2;
+        width: 100%;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .img {
+        display: flex;
+        text-align: center;
+        padding: 0, 2rem; }
+      body .gridG .img-grid {
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center; }
+        body .gridG .img-grid picture img {
+          max-width: 300px;
+          max-height: 300px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat; }
+      body .gridG .title-video {
+        background-color: var(--tertiary);
+        width: 100%;
+        height: 10rem;
+        text-align: center;
+        line-height: 10rem;
+        margin: 4rem; }
+      body .gridG .video {
+        text-align: center;
+        transform: scale(0.5); } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #e2efff; }
+    body .gridP {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 7.2rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridP .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridP .hist {
+        grid-column: 1 / span 4;
+        margin-top: 10rem;
+        transition: all 0.9s; }
+        body .gridP .hist:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP .instal {
+        grid-column: 1 / span 4;
+        margin-top: 10rem;
+        transition: all 0.9s; }
+        body .gridP .instal:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP h2 {
+        color: #000;
+        text-align: center; }
+      body .gridP article {
+        background-color: #1877f2;
+        width: 100%;
+        padding: 12rem; }
+      body .gridP p {
+        line-height: 3rem; }
+      body .gridP .ubicacion {
+        grid-column: 1 / span 4;
+        text-align: center;
+        margin-top: 10rem;
+        width: 100%; }
+        body .gridP .ubicacion h2 {
+          color: #000;
+          background-color: #1877f2;
+          margin-bottom: 2rem;
+          width: 100%;
+          transition: all 0.9s; }
+          body .gridP .ubicacion h2:hover {
+            transform: scale(1.2);
+            background-color: #79d2f5;
+            color: #000;
+            transition: all 0.9s;
+            box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #1877f2; }
+    body .gridP {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 7.2rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridP .back {
+        grid-column: 1 / span 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridP .hist {
+        grid-column: 1 / span 2;
+        margin-top: 2rem;
+        transition: all 0.9s; }
+        body .gridP .hist:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP .instal {
+        grid-column: 1 / span 2;
+        margin-top: 2rem;
+        transition: all 0.9s; }
+        body .gridP .instal:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP h2 {
+        color: #1877f2;
+        text-align: center; }
+      body .gridP article {
+        background-color: #000;
+        width: 100%;
+        padding: 12rem; }
+      body .gridP p {
+        line-height: 3rem; }
+      body .gridP .ubicacion {
+        grid-column: 1 / span 2;
+        text-align: center;
+        margin-top: 10rem;
+        width: 100%; }
+        body .gridP .ubicacion h2 {
+          color: #000;
+          background-color: #1877f2;
+          margin-bottom: 2rem;
+          width: 100%;
+          transition: all 0.9s; }
+          body .gridP .ubicacion h2:hover {
+            transform: scale(1.2);
+            background-color: #79d2f5;
+            color: #000;
+            transition: all 0.9s;
+            box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #000; }
+    body .gridP {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center; }
+      body .gridP .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridP .hist {
+        grid-column: 1 / 2;
+        margin-top: 0.1rem; }
+      body .gridP .instal {
+        grid-column: 1 / 2;
+        margin-top: 0.1rem; }
+      body .gridP h2 {
+        color: #1877f2;
+        text-align: center; }
+      body .gridP article {
+        background-color: #000;
+        width: 100%;
+        padding: 0.5rem; }
+      body .gridP p {
+        line-height: 3rem; }
+      body .gridP .ubicacion {
+        grid-column: 1 / 2;
+        text-align: center;
+        margin-top: 10rem;
+        width: 100%; }
+        body .gridP .ubicacion h2 {
+          color: #000;
+          background-color: #1877f2;
+          margin-bottom: 2rem;
+          width: 100%; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #e2efff; }
+    body .gridS {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 7.2rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridS .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridS .hab {
+        grid-column: span 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .hab:hover {
+          transform: scaley(1.5);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+        body .gridS .hab h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .resto {
+        grid-column: span 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .resto:hover {
+          transform: scaley(1.5);
+          background-color: #79d2f5;
+          color: var(--secondary);
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+        body .gridS .resto h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .paquetes {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .paquetes h2 {
+          color: #000;
+          text-align: center; }
+        body .gridS .paquetes:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridS .sorteo {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .sorteo h2 {
+          color: #000;
+          text-align: center; }
+        body .gridS .sorteo ol li {
+          font-size: 1.6em; }
+        body .gridS .sorteo:hover {
+          transform: scale(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #e2efff; }
+    body .gridS {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 7.2rem auto auto auto auto 20rem;
+      justify-items: center;
+      align-items: center; }
+      body .gridS .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridS .hab {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .hab:hover {
+          transform: scaley(1.5);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+        body .gridS .hab h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .resto {
+        grid-column: 2 / 3;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .resto:hover {
+          transform: scaley(1.5);
+          background-color: #79d2f5;
+          color: var(--secondary);
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+        body .gridS .resto h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .paquetes {
+        grid-column: 1 / 3;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .paquetes h2 {
+          color: #000;
+          text-align: center; }
+        body .gridS .paquetes:hover {
+          transform: scaley(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridS .sorteo {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .sorteo h2 {
+          color: #000;
+          text-align: center; }
+        body .gridS .sorteo ol li {
+          font-size: 1.6em; }
+        body .gridS .sorteo:hover {
+          transform: scaley(1.2);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #000; }
+    body .gridS {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center; }
+      body .gridS .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundPages.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+      body .gridS .hab {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .hab h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .resto {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .resto h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .paquetes {
+        grid-column: 1 / 2;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .paquetes h2 {
+          color: #000;
+          text-align: center; }
+      body .gridS .sorteo {
+        grid-column: 1 / span 4;
+        background-color: #1877f2;
+        margin: 1rem;
+        width: 100%;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .sorteo h2 {
+          color: #000;
+          text-align: center; }
+        body .gridS .sorteo ol li {
+          font-size: 1.6em; } }

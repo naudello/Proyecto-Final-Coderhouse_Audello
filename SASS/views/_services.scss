@@ -1,6 +1,6 @@
 @media only screen and (min-width:1024px) {
     body { background-color: $quarter;
-        .grid {
+        .gridS {
             display: grid;
             grid-template-columns: auto auto auto auto;
             grid-template-rows: 7.2rem auto auto auto auto 20rem;
@@ -23,14 +23,14 @@
             }
             .hab {
                 grid-column: span 2;
-                background-color: var(--tertiary);
+                background-color: $tertiary;
                 margin: 1rem;
                 padding: 5rem;
                 transition: all 0.9s;
                 &:hover {
                     transform: scaley(1.5);
                     background-color: rgb(121, 210, 245);
-                    color: var(--secondary);
+                    color: $secondary;
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -95,15 +95,19 @@
                     color: $secondary;
                     text-align: center;
                 }
+                ol li {
+                    font-size: 1.6em;
+                }
                 &:hover {
                     transform: scale(1.2);
                     background-color: rgb(121, 210, 245);
-                    color: var(--secondary);
+                    color: $secondary;
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
                     0.3em 0.3em 1em rgba(0,0,0,0.3);
                 }
+               
             }  
         }
     }
@@ -111,7 +115,7 @@
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
     body { background-color: $quarter;
-        .grid {
+        .gridS {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 7.2rem auto auto auto auto 20rem;
@@ -141,7 +145,7 @@
                 &:hover {
                     transform: scaley(1.5);
                     background-color: rgb(121, 210, 245);
-                    color: var(--secondary);
+                    color: $secondary;
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -186,7 +190,7 @@
                     text-align: center;
                 }
                 &:hover {
-                    transform: scale(1.2);
+                    transform: scaley(1.2);
                     background-color: rgb(121, 210, 245);
                     color: $secondary;
                     transition: all 0.9s ;
@@ -206,15 +210,19 @@
                     color: $secondary;
                     text-align: center;
                 }
+                ol li {
+                    font-size: 1.6em;
+                }
                 &:hover {
-                    transform: scale(1.2);
+                    transform: scaley(1.2);
                     background-color: rgb(121, 210, 245);
-                    color: var(--secondary);
+                    color: $secondary;
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
                     0.3em 0.3em 1em rgba(0,0,0,0.3);
                 }
+               
             }
         }  
     }
@@ -222,7 +230,7 @@
 @media only screen and (max-width: 767px) {
     body{
         background-color: $secondary;
-        .grid {
+        .gridS {
             display: grid;
             grid-template-columns: 100%;
             justify-items: center;
