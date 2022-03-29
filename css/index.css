@@ -889,8 +889,9 @@ p {
           body .gridC .form .nov input {
             cursor: pointer; }
         body .gridC .form .reset {
+          width: 15rem;
+          height: 3.5rem;
           padding: 0.9rem 2.5rem;
-          width: 12rem;
           background-color: #e2efff;
           border: none;
           border-radius: 5rem;
@@ -903,6 +904,8 @@ p {
             background-color: #034192;
             color: #fff; }
         body .gridC .form .submit {
+          width: 15rem;
+          height: 3.5rem;
           padding: 0.9rem 2.5rem;
           background-color: #e2efff;
           border: none;
@@ -980,6 +983,8 @@ p {
           body .gridC .form .nov input {
             cursor: pointer; }
         body .gridC .form .reset {
+          width: 15rem;
+          height: 3.5rem;
           padding: 0.9rem 2.5rem;
           background-color: #e2efff;
           border: none;
@@ -993,6 +998,8 @@ p {
             background-color: #034192;
             color: #fff; }
         body .gridC .form .submit {
+          width: 15rem;
+          height: 3.5rem;
           padding: 0.9rem 2.5rem;
           background-color: #e2efff;
           border: none;
@@ -1071,6 +1078,8 @@ p {
         body .gridC .nov input {
           cursor: pointer; }
       body .gridC .reset {
+        width: 15rem;
+        height: 3.5rem;
         padding: 0.9rem 2.5rem;
         background-color: #e2efff;
         border: none;
@@ -1084,6 +1093,8 @@ p {
           background-color: #034192;
           color: #fff; }
       body .gridC .submit {
+        width: 15rem;
+        height: 3.5rem;
         padding: 0.9rem 2.5rem;
         background-color: #e2efff;
         border: none;
@@ -1281,7 +1292,7 @@ p {
         background: url(../asset/Image/backgroundPages.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
         background-attachment: scroll;
         text-align: center; }
@@ -1351,7 +1362,7 @@ p {
         background: url(../asset/Image/backgroundPages.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
         background-attachment: scroll;
         text-align: center; }
@@ -1420,7 +1431,7 @@ p {
         background: url(../asset/Image/backgroundPages.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
         background-attachment: scroll;
         text-align: center; }
