@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px) {
     body {
-      background-color: $quarter;
+      background-color: map-get($colors , quarter);
       .grid {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -20,7 +20,7 @@
           background-size:  cover;
           background-attachment: scroll;
           h1 {
-            color: $principal;
+            color: map-get($colors , principal);
             font-weight: bold;
             font-size: 6.4em;  
             background-color: rgba(0, 0, 0, 0.4);
@@ -31,7 +31,7 @@
             margin: 0 auto;
           }
           p {
-            color: $principal;
+            color: map-get($colors , principal);
             background-color: rgba(0, 0, 0, 0.4);  
             font-size: 2.4em;
             text-transform: capitalize;
@@ -42,45 +42,29 @@
           }   
         }
         .section2__1 {
+          
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/habitacion.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;    
+          @include sectionSmall;
+          border-radius: 50%;   
         }
         .section2__2 {
+          @include sectionSmall;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/servicioPesca.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          border-radius: 50%;    
         }
+        
         .section2__3 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/RestoBar.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          @include sectionSmall;
+          border-radius: 50%;    
         }
+        
         .section2__4 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Naturaleza.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          @include sectionSmall;
+          border-radius: 50%;    
         }
+        
         .section3 {
           grid-column: 1 / span 4;
           width: 100%;
@@ -100,7 +84,7 @@
             right: 12rem;
             transform: scaleY(1.1);
             h2 {
-              color: $secondary;
+              color: map-get($colors , secondary);
               line-height: 10rem;
             }
             p {
@@ -111,43 +95,19 @@
         }
         .section4__1 {
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
-          margin: 1.5rem; 
+          @include sectionSmall
         }
         .section4__2 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
-          margin: 1.5rem;
+          @include sectionSmall
         }
         .section4__3 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
-          margin: 1.5rem;
+          @include sectionSmall
         }
         .section4__4 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
-          margin: 1.5rem;
+          @include sectionSmall
         }
         .section5 {
           grid-column: 1 / span 4;
@@ -168,7 +128,7 @@
             left: 12rem;
             transform: scaleY(1.1);
             h2 {
-              color: $secondary;
+              color: map-get($colors , secondary);
               line-height: 10rem;
             }
             p {
@@ -184,7 +144,7 @@
   /* Vista tablet */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {
-      background-color: $tertiary;
+      background-color: map-get($colors , tertiary);
       .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -204,7 +164,7 @@
           background-size:  cover;
           background-attachment: scroll;
           h1 {
-            color: $principal;
+            color: map-get($colors , principal);
             font-weight: bold;
             font-size: 6.4em;  
             background-color: rgba(0, 0, 0, 0.4);
@@ -215,7 +175,7 @@
             margin: 0 auto;
           }
           p {
-            color: $principal;
+            color: map-get($colors , principal);
             background-color: rgba(0, 0, 0, 0.4);  
             font-size: 2.4em;
             text-transform: capitalize;
@@ -227,43 +187,23 @@
         }
         .section2__1 {
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/habitacion.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;    
+          @include sectionSmall;
+          border-radius: 50%;    
         }
         .section2__2 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/servicioPesca.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          @include sectionSmall;
+          border-radius: 50%;   
         }
         .section2__3 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/RestoBar.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          @include sectionSmall;
+          border-radius: 50%;  
         }
         .section2__4 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Naturaleza.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          border-radius: 50%;
-          padding-top: 10rem;  
+          @include sectionSmall;
+          border-radius: 50%;  
         }
         .section3 {
           grid-column: 1 / span 2;
@@ -284,7 +224,7 @@
             right: 12rem;
             transform: scaleY(1.1);
             h2 {
-              color: $quarter;
+              color: map-get($colors , quarter);
               line-height: 10rem;
             }
             p {
@@ -295,42 +235,22 @@
         }
         .section4__1 {
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
+          @include sectionSmall  
           
         }
         .section4__2 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
+          @include sectionSmall  
           
         }
         .section4__3 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
+          @include sectionSmall
         
         }
         .section4__4 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 23rem;
-          height: 23rem;
-          padding-top: 10rem;  
+          @include sectionSmall
        
         }
         .section5 {
@@ -351,7 +271,7 @@
             left: 12rem;
             transform: scaleY(1.1);
             h2 {
-              color: $quarter;
+              color: map-get($colors , quarter);
               line-height: 10rem;
             }
             p {
@@ -368,7 +288,7 @@
   /* Vista mobile */
   @media only screen and (max-width: 767px) {
     body{
-      background-color: $secondary;
+      background-color: map-get($colors , secondary);
       .grid {
         display: grid;
         grid-template-columns: 100%;
@@ -386,7 +306,7 @@
           background-size:  cover;
           background-attachment: scroll;
           h1 {
-            color: $principal;
+            color: map-get($colors , principal);
             font-weight: bold;
             font-size: 2.8em;  
             background-color: rgba(0, 0, 0, 0.4);
@@ -397,7 +317,7 @@
             margin: 0 auto;
           }
           p {
-            color: $principal;
+            color: map-get($colors , principal);
             background-color: rgba(0, 0, 0, 0.4);  
             font-size: 1.3em;
             text-transform: capitalize;
@@ -475,7 +395,7 @@
             margin-top: 20%;
             margin-bottom: 20%;
             h2 {
-              color: $quarter;
+              color: map-get($colors , quarter);
               line-height: 10rem;
               line-height: 4rem;
              font-size: 2.6em;
@@ -553,7 +473,7 @@
             margin-top: 20%;
             margin-bottom: 20%;
             h2 {
-              color: $quarter;
+              color: map-get($colors , quarter);
               line-height: 4rem;
               font-size: 2.6em;
             }

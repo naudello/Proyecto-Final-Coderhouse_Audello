@@ -1,7 +1,21 @@
+$font-primary: "Inter", sans-serif;
 
-    $principal: #fff;
-    $secondary: #000;
-    $tertiary: #1877f2;
-    $quarter: #e2efff;
-    $fifth: #034192;
-    $font-primary: "Inter", sans-serif;
+$colors:(
+    principal: #fff,
+    secondary: #000,
+    tertiary: #1877f2,
+    quarter: #e2efff,
+    hoverbtn: #034192,
+    hoverserv: rgb(121, 210, 245)
+);
+
+
+
+$font-size:(
+    Xlarge: 6.4em,
+    large: 4em,
+    Medium: 3em,
+    Smoll: 1.8em,
+    Parrafo: 2.4em
+);
+

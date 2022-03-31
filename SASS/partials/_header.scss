@@ -1,6 +1,6 @@
 @media only screen and (min-width:1024px) {
     header {
-        background-color: $principal;
+        background-color: map-get($colors , principal);
         grid-column: 1 / span 4;
         min-width: 100%;
         .navbar {
@@ -21,16 +21,16 @@
                 text-align: right;
                 &__button {
                     padding: 0.9rem 2.5rem;
-                    background-color: $tertiary;
+                    background-color: map-get($colors , tertiary);
                     border: none;
                     border-radius: 5rem;
                     transition: all 0.3s ease-in-out;
-                    color: $principal;
+                    color: map-get($colors , principal);
                     font-weight: bold;
                     font-size: 1.4em;
                     cursor: pointer;
                     &:hover {
-                        background-color: $fifth;
+                        background-color: map-get($colors , hoverbtn);
                     }
                 }
             }
@@ -42,13 +42,13 @@
                 &__links {
                     text-decoration: none;
                     font-size: 1.4em;
-                    color: $secondary;
+                    color: map-get($colors , secondary);
                     display: inline-block; 
                     padding: 1rem;  
                     transition: all 0.3s ease-in-out; 
                     &:hover {
-                        background-color:  $tertiary;
-                        color: $principal;
+                        background-color:  map-get($colors , tertiary);
+                        color: map-get($colors , principal);
                     }
                 }
             
@@ -59,7 +59,7 @@
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
     header {
-        background-color: $principal;
+        background-color: map-get($colors , principal);
         grid-column: 1 / span 2;
         min-width: 100%;
         .navbar {
@@ -80,16 +80,16 @@
                 text-align: right;
                 &__button {
                     padding: 0.9rem 2.5rem;
-                    background-color: $tertiary;
+                    background-color: map-get($colors , tertiary);
                     border: none;
                     border-radius: 5rem;
                     transition: all 0.3s ease-in-out;
-                    color: $principal;
+                    color: map-get($colors , principal);
                     font-weight: bold;
                     font-size: 1.4em;
                     cursor: pointer;
                     &:hover {
-                        background-color: $fifth;
+                        background-color: map-get($colors , hoverbtn);
                     }
                 }
             }
@@ -101,13 +101,13 @@
                 &__links {
                     text-decoration: none;
                     font-size: 1.4em;
-                    color: $secondary;
+                    color: map-get($colors , secondary);
                     display: inline-block; 
                     padding: 1rem;  
                     transition: all 0.3s ease-in-out; 
                     &:hover {
-                        background-color:  $tertiary;
-                        color: $principal;
+                        background-color:  map-get($colors , tertiary);
+                        color: map-get($colors , principal);
                     }
                 }
               
@@ -119,7 +119,7 @@
     
 @media only screen and (max-width: 767px) {
     header {
-        background-color: $principal;
+        background-color: map-get($colors , principal);
         min-width: 100%;
         display: flex;
         .navbar {
@@ -141,16 +141,16 @@
                 text-align: right;
                 &__button {
                     padding: 0.9rem 2.5rem;
-                    background-color: $tertiary;
+                    background-color: map-get($colors , tertiary);
                     border: none;
                     border-radius: 5rem;
                     transition: all 0.3s ease-in-out;
-                    color: $principal;
+                    color: map-get($colors , principal);
                     font-weight: bold;
                     font-size: 1.4em;
                     cursor: pointer;
                     &:hover {
-                        background-color: $fifth;
+                        background-color: map-get($colors , hoverbtn);
                     }
                 }
             }
@@ -162,13 +162,13 @@
                 &__links {
                     text-decoration: none;
                     font-size: 1.2em;
-                    color: $secondary;
+                    color: map-get($colors , secondary);
                     display: inline-block; 
                     padding: 1rem;  
                     transition: all 0.3s ease-in-out; 
                     &:hover {
-                        background-color:  $tertiary;
-                        color: $principal;
+                        background-color:  map-get($colors , tertiary);
+                        color: map-get($colors , principal);
                     }
                 }
               

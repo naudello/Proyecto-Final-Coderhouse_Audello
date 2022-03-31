@@ -12,3 +12,16 @@
     max-width: 1240px;
     margin: 0 auto;
 }
+
+
+@mixin sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 23rem, $height: 23rem,  $ptop: 10rem, $margin: 1.5rem) {
+    background-size: $backsize;
+    display: $display;
+    text-align: $talign;
+    width: $width;
+    height: $height;
+    padding-top: $ptop;
+    margin: $margin;  
+    
+}
+

@@ -1,6 +1,6 @@
 @media only screen and (min-width:1024px) {
     body{
-	    background-color: $quarter;
+	    background-color: map-get($colors , quarter);
         .gridP {
             display: grid;
             grid-template-columns: auto auto auto auto;
@@ -28,8 +28,8 @@
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.2);
-                    background-color: rgb(121, 210, 245);
-                    color: $secondary;
+                    background-color: map-get($colors , hoverserv);
+                    color: map-get($colors , secondary);
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -42,8 +42,8 @@
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.2);
-                    background-color: rgb(121, 210, 245);
-                    color: $secondary;
+                    background-color: map-get($colors , hoverserv);
+                    color: map-get($colors , secondary);
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -51,11 +51,11 @@
                 }   
             }
             h2 {
-                color: $secondary;
+                color: map-get($colors , secondary);
                 text-align: center;
             } 
             article {
-                background-color: $tertiary;
+                background-color: map-get($colors , tertiary);
                 width: 100%;
                 padding: 12rem;
             }
@@ -68,15 +68,15 @@
                 margin-top: 10rem;
                 width: 100%;
                 h2 {
-                    color: $secondary;
-                    background-color: $tertiary;
+                    color: map-get($colors , secondary);
+                    background-color: map-get($colors , tertiary);
                     margin-bottom: 2rem;
                     width: 100%;
                     transition: all 0.9s;
                     &:hover {
                         transform: scale(1.2);
-                        background-color: rgb(121, 210, 245);
-                        color: $secondary;
+                        background-color: map-get($colors , hoverserv);
+                        color: map-get($colors , secondary);
                         transition: all 0.9s ;
                         box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                         0 0  0 2px rgb(255,255,255),
@@ -92,7 +92,7 @@
 @media only screen and (min-width: 768px) and (max-width:1023px){
 	
     body{
-	    background-color: $tertiary;
+	    background-color: map-get($colors , tertiary);
         .gridP {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -120,8 +120,8 @@
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.2);
-                    background-color: rgb(121, 210, 245);
-                    color: $secondary;
+                    background-color: map-get($colors , hoverserv);
+                    color: map-get($colors , secondary);
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -134,8 +134,8 @@
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.2);
-                    background-color: rgb(121, 210, 245);
-                    color: $secondary;
+                    background-color: map-get($colors , hoverserv);
+                    color: map-get($colors , secondary);
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                     0 0  0 2px rgb(255,255,255),
@@ -143,11 +143,11 @@
                 }   
             }
             h2 {
-                color: $tertiary;
+                color: map-get($colors , tertiary);
                 text-align: center;
             } 
             article {
-                background-color: $secondary;
+                background-color: map-get($colors , secondary);
                 width: 100%;
                 padding: 12rem;
             }
@@ -160,15 +160,15 @@
                 margin-top: 10rem;
                 width: 100%;
                 h2 {
-                    color: $secondary;
-                    background-color: $tertiary;
+                    color: map-get($colors , secondary);
+                    background-color: map-get($colors , tertiary);
                     margin-bottom: 2rem;
                     width: 100%;
                     transition: all 0.9s;
                     &:hover {
                         transform: scale(1.2);
-                        background-color: rgb(121, 210, 245);
-                        color: $secondary;
+                        background-color: map-get($colors , hoverserv);
+                        color: map-get($colors , secondary);
                         transition: all 0.9s ;
                         box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
                         0 0  0 2px rgb(255,255,255),
@@ -183,7 +183,7 @@
 
 @media only screen and (max-width: 767px) {
     body{
-	    background-color: $secondary;
+	    background-color: map-get($colors , secondary);
         .gridP {
             display: grid;
             grid-template-columns: 100%;
@@ -213,11 +213,11 @@
                 margin-top: 0.1rem; 
             }
             h2 {
-                color: $tertiary;
+                color: map-get($colors , tertiary);
                 text-align: center;
             } 
             article {
-                background-color: $secondary;
+                background-color: map-get($colors , secondary);
                 width: 100%;
                 padding: 0.5rem;
             }
@@ -230,8 +230,8 @@
                 margin-top: 10rem;
                 width: 100%;
                 h2 {
-                    color: $secondary;
-                    background-color: $tertiary;
+                    color: map-get($colors , secondary);
+                    background-color: map-get($colors , tertiary);
                     margin-bottom: 2rem;
                     width: 100%;
                 }  
