@@ -10,6 +10,9 @@
         padding: 2.5rem 10rem;
         div {
             display: inline-block;}
+        h4{
+            font-size: 2em;
+        }    
         ul {
             list-style-type: none;
             li {
@@ -64,6 +67,9 @@
         padding: 2.5rem 10rem;
         div {
             display: inline-block;}
+        h4{
+            font-size: 2em;
+        }     
         ul {
             list-style-type: none;
             li {
@@ -115,7 +121,7 @@
         height: 50rem;
         justify-content: space-between;
         background-color: map-get($colors , secondary);
-        padding: 2.5rem 10rem;
+        padding: 2.5rem 1rem;
         justify-content: space-between;
         section {
             flex-direction: column;
@@ -123,6 +129,9 @@
             text-align: center;
             div {
                 display: inline-block;}
+            h4{
+                font-size: 1.5em;
+            } 
             ul {
                 list-style-type: none;
                 li {

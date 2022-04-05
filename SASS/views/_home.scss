@@ -1,572 +1,560 @@
 @media only screen and (min-width: 1024px) {
-    body {
-      background-color: map-get($colors , quarter);
-      .grid {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: 7.2rem 70rem auto auto 38rem 45rem 20rem;
-        justify-items: center;
+  body {
+    background-color: map-get($colors , quarter);
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 7.2rem 70rem auto auto 38rem 45rem 20rem;
+      justify-items: center;
+      align-items: center;
+      .section1 {
+        grid-column: 1 / span 4;
+        justify-content: center;
         align-items: center;
-        .section1 {
-          grid-column: 1 / span 4;
-          justify-content: center;
+        height: 70rem;
+        background: url(../asset/Image/dorado2.jpg);
+        max-width: 100%;
+        min-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:  cover;
+        background-attachment: scroll;
+        h1 {
+          color: map-get($colors , principal);
+          font-weight: bold;
+          font-size: 6.4em;  
+          background-color: rgba(0, 0, 0, 0.4);
+          text-align: center;
+          height: 8rem;
+          line-height: 8rem;
+          width: 80rem;
+          margin: 0 auto;
+        }
+        p {
+          color: map-get($colors , principal);
+          background-color: rgba(0, 0, 0, 0.4);  
+          font-size: 2.4em;
+          text-transform: capitalize;
+          text-align: center;
+          height: 6rem;
+          line-height: 6rem;
+          width: 80rem;
+        }   
+      }
+      .section2 {
+        grid-column: 1 / span 4;
+        align-items: start;
+        margin: 2rem 0rem;
+        .sec2{
           align-items: center;
-          height: 70rem;
-          background: url(../asset/Image/dorado2.jpg);
-          max-width: 100%;
-          min-width: 100%;
-          background-repeat: no-repeat;
-          background-position: bottom;
-          background-size:  cover;
-          background-attachment: scroll;
-          h1 {
-            color: map-get($colors , principal);
-            font-weight: bold;
-            font-size: 6.4em;  
-            background-color: rgba(0, 0, 0, 0.4);
-            text-align: center;
-            height: 8rem;
-            line-height: 8rem;
-            width: 80rem;
-            margin: 0 auto;
-          }
+          text-align: center;
+          width: 25%;
+          margin: 0 1rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: rgba(0, 3, 7, 0.8);
           p {
-            color: map-get($colors , principal);
-            background-color: rgba(0, 0, 0, 0.4);  
-            font-size: 2.4em;
-            text-transform: capitalize;
-            text-align: center;
-            height: 6rem;
-            line-height: 6rem;
-            width: 80rem;
-          }   
-        }
-        .section2 {
-          grid-column: 1 / span 4;
-          align-items: start;
-          margin: 2rem 0rem;
-          .sec2{
-            align-items: center;
-            text-align: center;
-            width: 25%;
-            margin: 0 1rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: rgba(0, 3, 7, 0.8);
-            p {
-              margin: 3rem;
-              color: map-get($colors , tertiary);
-              text-align: left;
-                
-            } 
-            .section2__1 {
+            margin: 3rem;
+            color: map-get($colors , tertiary);
+            text-align: left;
+              
+          } 
+          .section2__1 {
+        
+            background: url(../asset/Image/habitacion.jpg);
+            @include sectionSmall;
+            border-radius: 50%;   
+          }
+          .section2__2 {
+            @include sectionSmall;
+            background: url(../asset/Image/servicioPesca.jpg);
+            border-radius: 50%;    
+          }
           
-              background: url(../asset/Image/habitacion.jpg);
-              @include sectionSmall;
-              border-radius: 50%;   
-            }
-            .section2__2 {
-              @include sectionSmall;
-              background: url(../asset/Image/servicioPesca.jpg);
-              border-radius: 50%;    
-            }
-            
-            .section2__3 {
-              background: url(../asset/Image/RestoBar.jpg);
-              @include sectionSmall;
-              border-radius: 50%;    
-            }
-            
-            .section2__4 {
-              background: url(../asset/Image/Naturaleza.jpg);
-              @include sectionSmall;
-              border-radius: 50%;    
-            }
-            
+          .section2__3 {
+            background: url(../asset/Image/RestoBar.jpg);
+            @include sectionSmall;
+            border-radius: 50%;    
           }
-        }
-        
-        
-        .section3 {
-          grid-column: 1 / span 4;
-          width: 100%;
-          height: 45rem;
-          left: 0px;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: bottom;
-          article {
-            background: rgba(24, 119, 242, 0.8);
-            align-items: flex-start;
-            padding: 6.4rem;
-            position: absolute;
-            width: 60rem;
-            height: 45rem;
-            right: 12rem;
-            transform: scaleY(1.1);
-            h2 {
-              color: map-get($colors , secondary);
-              line-height: 10rem;
-            }
-            p {
-              line-height: 3.2rem;
-            }
-        }
-        
-        }
-        .section4 {
-          grid-column: 1 / span 4;
-          align-items: start;
-          margin: 2rem 0rem;
-          .section4__1 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
-            @include sectionSmall
+          
+          .section2__4 {
+            background: url(../asset/Image/Naturaleza.jpg);
+            @include sectionSmall;
+            border-radius: 50%;    
           }
-          .section4__2 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
-            @include sectionSmall
-          }
-          .section4__3 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-            @include sectionSmall
-          }
-          .section4__4 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-            @include sectionSmall
-          }
-
-        }
-        
-        .section5 {
-          grid-column: 1 / span 4;
-          width: 100%;
-          height: 45rem;
-          left: 0px;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-          article {
-            background: rgba(24, 119, 242, 0.8);
-            align-items: flex-start;
-            padding: 6.4rem;
-            position: absolute;
-            width: 60rem;
-            height: 45rem;
-            left: 12rem;
-            transform: scaleY(1.1);
-            h2 {
-              color: map-get($colors , secondary);
-              line-height: 10rem;
-            }
-            p {
-              line-height: 3.2rem;
-            }
-          }
+          
         }
       }
-  
-    }
-  }
-   
-  /* Vista tablet */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
       
-      .grid {
-        background-color: map-get($colors , tertiary);
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 7.2rem 70rem auto  45rem 30rem 45rem 20rem;
-        justify-items: center;
-        align-items: center;
-        .section1 {
-          grid-column: 1 / span 2;
-          justify-content: center;
-          align-items: center;
-          height: 70rem;
-          background: url(../asset/Image/dorado2.jpg);
-          max-width: 100%;
-          min-width: 100%;
-          background-repeat: no-repeat;
-          background-position: bottom;
-          background-size:  cover;
-          background-attachment: scroll;
-          h1 {
-            color: map-get($colors , principal);
-            font-weight: bold;
-            font-size: 6.4em;  
-            background-color: rgba(0, 0, 0, 0.4);
-            text-align: center;
-            height: 8rem;
-            line-height: 8rem;
-            width: 80rem;
-            margin: 0 auto;
+      
+      .section3 {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 45rem;
+        left: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        article {
+          background: rgba(24, 119, 242, 0.8);
+          align-items: flex-start;
+          padding: 6.4rem;
+          position: absolute;
+          width: 60rem;
+          height: 45rem;
+          right: 12rem;
+          transform: scaleY(1.1);
+          h2 {
+            color: map-get($colors , secondary);
+            line-height: 10rem;
           }
           p {
-            color: map-get($colors , principal);
-            background-color: rgba(0, 0, 0, 0.4);  
-            font-size: 2.4em;
-            text-transform: capitalize;
-            text-align: center;
-            height: 6rem;
-            line-height: 6rem;
-            width: 80rem;
-          }   
-        }
-        .section2 {
-          grid-column: 1 / span 2;
-          align-items: start;
-          margin: 2rem 0rem;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          .sec2{
-            align-items: center;
-            text-align: center;
-            width: 25%;
-            margin: 0 1rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: rgba(0, 3, 7, 0.8);
-            p {
-              margin: 3rem;
-              color: map-get($colors , tertiary);
-              text-align: left;
-                
-            } 
-            .section2__1 {
-          
-              background: url(../asset/Image/habitacion.jpg);
-              @include sectionSmall;
-              border-radius: 50%;   
-            }
-            .section2__2 {
-              @include sectionSmall;
-              background: url(../asset/Image/servicioPesca.jpg);
-              border-radius: 50%;    
-            }
-            
-            .section2__3 {
-              background: url(../asset/Image/RestoBar.jpg);
-              @include sectionSmall;
-              border-radius: 50%;    
-            }
-            
-            .section2__4 {
-              background: url(../asset/Image/Naturaleza.jpg);
-              @include sectionSmall;
-              border-radius: 50%;    
-            }
-            
+            line-height: 3.2rem;
           }
-        }
-        .section3 {
-          grid-column: 1 / span 2;
-          width: 100%;
-          height: 45rem;
-          left: 0px;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: left;
-          article {
-            background: rgba(0, 3, 7, 0.8);
-            align-items: center;
-            padding: 6.4rem;
-            position: absolute;
-            width: 60rem;
-            height: 45rem;
-            right: 12rem;
-            transform: scaleY(1.1);
-            h2 {
-              color: map-get($colors , quarter);
-              line-height: 10rem;
-            }
-            p {
-              line-height: 3.2rem;
-            }
-        }
-        
-        }
-        .section4 {
-          grid-column: 1 / span 2;
-          align-items: start;
-          margin: 2rem 0rem;
-          .section4__1 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
-            @include sectionSmall
-          }
-          .section4__2 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
-            @include sectionSmall
-          }
-          .section4__3 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-            @include sectionSmall
-          }
-          .section4__4 {
-            margin: 2rem;
-            border-style: inset;
-            border-color: map-get($colors , tertiary );
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-            @include sectionSmall
-          }
-
-        }
-        .section5 {
-          grid-column: 1 / span 2;
-          width: 100%;
-          height: 45rem;
-          left: 0px;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-          article {
-            background: rgba(0, 3, 7, 0.8);
-            align-items: center;
-            padding: 6.4rem;
-            width: 60rem;
-            height: 45rem;
-            left: 12rem;
-            transform: scaleY(1.1);
-            h2 {
-              color: map-get($colors , quarter);
-              line-height: 10rem;
-            }
-            p {
-              line-height: 3.2rem;
-            }
-          }
-        }
       }
-  
-    }
-  
-  }
-    
-  /* Vista mobile */
-  @media only screen and (max-width: 767px) {
-    body{
-      background-color: map-get($colors , secondary);
-      .grid {
-        display: grid;
-        grid-template-columns: 100%;
-        justify-items: center;
-        align-items: center;
-        .section1 {
-          grid-column: 1 / 2;
-          justify-content: center;
-          align-items: center;
-          height: 35rem;
-          background: url(../asset/Image/dorado2.jpg);
-          width: 100%;
-          background-repeat: no-repeat;
-          background-position: bottom;
-          background-size:  cover;
-          background-attachment: scroll;
-          h1 {
-            color: map-get($colors , principal);
-            font-weight: bold;
-            font-size: 2.8em;  
-            background-color: rgba(0, 0, 0, 0.4);
-            text-align: center;
-            height: 3.2rem;
-            line-height: 3rem;
-            width: 31rem;
-            margin: 0 auto;
-          }
-          p {
-            color: map-get($colors , principal);
-            background-color: rgba(0, 0, 0, 0.4);  
-            font-size: 1.3em;
-            text-transform: capitalize;
-            text-align: center;
-            height: 3.2rem;
-            line-height: 3rem;
-            width: 31rem;
-          }   
-        }
-        .section2__1 {
-          grid-column: 1 / 2;
-          background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/habitacion.jpg);
-          background-size: cover;
-          text-align: center;
-          background-position: bottom;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 3.5rem;  
-          font-size: 1em;  
-        }
-        .section2__2 {
-          grid-column: 1 / 2;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/servicioPesca.jpg);
-          background-size: cover;
-          text-align: center;
-          background-position: bottom;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 3.5rem;  
-          font-size: 1em;
-        }
-        .section2__3 {
-          grid-column: 1 / 2;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/RestoBar.jpg);
-          background-size: cover;
-          text-align: center;
-          background-position: bottom;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 3.5rem;  
-          font-size: 1em; 
-        }
-        .section2__4 {
-          grid-column: 1 / 2;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Naturaleza.jpg);
-          background-size: cover;
-          text-align: center;
-          background-position: bottom;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 3.5rem;  
-          font-size: 1em; 
-        }
-        .section3 {
-          grid-column: 1 / 2;
-          width: 100%;
-          height: 35rem;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: left;
-          text-align: center;
-          justify-content: center;
-          align-content: center;
-          article {
-            background: rgba(0, 3, 7, 0.8);
-            align-items: center;
-            padding: 1rem;
-            width: 100%;
-            transform: scaleY(1.1);
-            margin-top: 20%;
-            margin-bottom: 20%;
-            h2 {
-              color: map-get($colors , quarter);
-              line-height: 10rem;
-              line-height: 4rem;
-             font-size: 2.6em;
-            }
-            p {
-              line-height: 2.5rem;
-              font-size: 1.4em;
-            }
-          }
-        
-        }
+      
+      }
+      .section4 {
+        grid-column: 1 / span 4;
+        align-items: start;
+        margin: 2rem 0rem;
         .section4__1 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
-          background-size: cover;
-          grid-column: 1 / 2;
-          text-align: center;
-          background-position: center;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 1.5rem;  
-          font-size: 1em;
+          @include sectionSmall
         }
         .section4__2 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
-          background-size: cover;
-          grid-column: 1 / 2;
-          text-align: center;
-          background-position: center;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 1.5rem;  
-          font-size: 1em;
+          @include sectionSmall
         }
         .section4__3 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          grid-column: 1 / 2;
-          text-align: center;
-          background-position: center;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 1.5rem;  
-          font-size: 1em;
+          @include sectionSmall
         }
         .section4__4 {
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
-          background-size: cover;
-          grid-column: 1 / 2;
-          text-align: center;
-          background-position: center;
-          width: 100%;
-          height: 10rem;
-          margin-top: 1rem;
-          padding-top: 1.5rem;  
-          font-size: 1em;
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Fauna.jpg);
+          @include sectionSmall
         }
-        .section5 {
-          grid-column: 1 / 2;
-          width: 100%;
-          height: 35rem;
-          left: 0px;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-          article {
-            background: rgba(0, 3, 7, 0.8);
-            align-items: center;
-            padding: 1rem;
-            width: 100%;
-            transform: scaleY(1.1);
-            margin-top: 20%;
-            margin-bottom: 20%;
-            h2 {
-              color: map-get($colors , quarter);
-              line-height: 4rem;
-              font-size: 2.6em;
-            }
-            p {
-              line-height: 2.5rem;
-              font-size: 1.4em;
-            }
+
+      }
+      
+      .section5 {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 45rem;
+        left: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        article {
+          background: rgba(24, 119, 242, 0.8);
+          align-items: flex-start;
+          padding: 6.4rem;
+          position: absolute;
+          width: 60rem;
+          height: 45rem;
+          left: 12rem;
+          transform: scaleY(1.1);
+          h2 {
+            color: map-get($colors , secondary);
+            line-height: 10rem;
+          }
+          p {
+            line-height: 3.2rem;
           }
         }
       }
     }
   
   }
+}
+   
+  /* Vista tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
     
+    .grid {
+      background-color: map-get($colors , tertiary);
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 7.2rem 70rem auto  45rem 30rem 45rem 20rem;
+      justify-items: center;
+      align-items: center;
+      .section1 {
+        grid-column: 1 / span 2;
+        justify-content: center;
+        align-items: center;
+        height: 70rem;
+        background: url(../asset/Image/dorado2.jpg);
+        max-width: 100%;
+        min-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:  cover;
+        background-attachment: scroll;
+        h1 {
+          color: map-get($colors , principal);
+          font-weight: bold;
+          font-size: 6.4em;  
+          background-color: rgba(0, 0, 0, 0.4);
+          text-align: center;
+          height: 8rem;
+          line-height: 8rem;
+          width: 80rem;
+          margin: 0 auto;
+        }
+        p {
+          color: map-get($colors , principal);
+          background-color: rgba(0, 0, 0, 0.4);  
+          font-size: 2.4em;
+          text-transform: capitalize;
+          text-align: center;
+          height: 6rem;
+          line-height: 6rem;
+          width: 80rem;
+        }   
+      }
+      .section2 {
+        grid-column: 1 / span 2;
+        align-items: start;
+        margin: 2rem 0rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .sec2{
+          align-items: center;
+          text-align: center;
+          width: 25%;
+          margin: 0 1rem;
+          border-style: inset;
+          border-color: map-get($colors , hoverserv);
+          background: rgba(0, 3, 7, 0.8);
+          p {
+            margin: 3rem;
+            color: map-get($colors , tertiary);
+            text-align: left;
+              
+          } 
+          .section2__1 {
+        
+            background: url(../asset/Image/habitacion.jpg);
+            @include sectionSmall;
+            border-radius: 50%;   
+          }
+          .section2__2 {
+            @include sectionSmall;
+            background: url(../asset/Image/servicioPesca.jpg);
+            border-radius: 50%;    
+          }
+          
+          .section2__3 {
+            background: url(../asset/Image/RestoBar.jpg);
+            @include sectionSmall;
+            border-radius: 50%;    
+          }
+          
+          .section2__4 {
+            background: url(../asset/Image/Naturaleza.jpg);
+            @include sectionSmall;
+            border-radius: 50%;    
+          }
+          
+        }
+      }
+      .section3 {
+        grid-column: 1 / span 2;
+        width: 100%;
+        height: 45rem;
+        left: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        article {
+          background: rgba(0, 3, 7, 0.8);
+          align-items: center;
+          padding: 6.4rem;
+          width: 60rem;
+          height: 45rem;
+          transform: scaleY(1.1);
+          h2 {
+            color: map-get($colors , quarter);
+            line-height: 10rem;
+          }
+          p {
+            line-height: 3.2rem;
+          }
+      }
+      
+      }
+      .section4 {
+        grid-column: 1 / span 2;
+        align-items: start;
+        margin: 2rem 0rem;
+        .section4__1 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
+          @include sectionSmall
+        }
+        .section4__2 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
+          @include sectionSmall
+        }
+        .section4__3 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
+          @include sectionSmall
+        }
+        .section4__4 {
+          margin: 2rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Fauna.jpg);
+          @include sectionSmall
+        }
+
+      }
+      .section5 {
+        grid-column: 1 / span 2;
+        width: 100%;
+        height: 45rem;
+        left: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        article {
+          background: rgba(0, 3, 7, 0.8);
+          align-items: center;
+          padding: 6.4rem;
+          width: 60rem;
+          height: 45rem;
+          transform: scaleY(1.1);
+          h2 {
+            color: map-get($colors , quarter);
+            line-height: 10rem;
+          }
+          p {
+            line-height: 3.2rem;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+    
+  /* Vista mobile */
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: map-get($colors , secondary);
+    .grid {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-items: center;
+      align-items: center;
+      .section1 {
+        grid-column: 1 / 2;
+        justify-content: center;
+        align-items: center;
+        height: 35rem;
+        background: url(../asset/Image/dorado2.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:  cover;
+        background-attachment: scroll;
+        h1 {
+          color: map-get($colors , principal);
+          font-weight: bold;
+          font-size: 2.8em;  
+          background-color: rgba(0, 0, 0, 0.4);
+          text-align: center;
+          height: 3.2rem;
+          line-height: 3rem;
+          width: 31rem;
+          margin: 0 auto;
+        }
+        p {
+          color: map-get($colors , principal);
+          background-color: rgba(0, 0, 0, 0.4);  
+          font-size: 1.3em;
+          text-transform: capitalize;
+          text-align: center;
+          height: 3.2rem;
+          line-height: 3rem;
+          width: 31rem;
+        }   
+      }
+      .section2 {
+        grid-column: 1 / 2;
+        align-items: center;
+        margin: 2rem 0rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        .sec2{
+          align-items: center;
+          text-align: center;
+          width: 90%;
+          margin: 0 0.5rem;
+          border-style: inset;
+          border-color: map-get($colors , hoverserv);
+          background: rgba(0, 3, 7, 0.8);
+          h3 {
+            font-size: 2.6em;
+          }
+          p {
+            text-align: center;
+            font-size: 1.6em;
+            margin: 3rem;
+            color: map-get($colors , tertiary);
+            text-align: left;
+              
+          } 
+          .section2__1 {
+            background: url(../asset/Image/habitacion.jpg);
+            @include sectionSmall;
+              
+          }
+          .section2__2 {
+            @include sectionSmall;
+            background: url(../asset/Image/servicioPesca.jpg);
+               
+          }
+          
+          .section2__3 {
+            background: url(../asset/Image/RestoBar.jpg);
+            @include sectionSmall;
+             
+          }
+          
+          .section2__4 {
+            background: url(../asset/Image/Naturaleza.jpg);
+            @include sectionSmall;
+               
+          }
+        } 
+      }
+      .section3 {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 35rem;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/complejo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        text-align: center;
+        article {
+          background: rgba(0, 3, 7, 0.8);
+          align-items: center;
+          padding: 1rem;
+          width: 100%;
+          transform: scaleY(1.1);
+          margin-top: 20%;
+          margin-bottom: 20%;
+          h2 {
+            color: map-get($colors , quarter);
+            line-height: 10rem;
+            line-height: 4rem;
+            font-size: 2.6em;
+          }
+          p {
+            line-height: 2.5rem;
+            font-size: 1.4em;
+          }
+        }
+      
+      }
+      .section4 {
+        grid-column: 1 / 2;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        h3 {
+          font-size: 2.6em;
+        }
+        .section4__1 {
+          height: 3rem;
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
+          background-position: bottom;
+          @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
+        }
+        .section4__2 {
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
+          @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
+        }
+        .section4__3 {
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
+          background-position: bottom;
+          @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
+        }
+        .section4__4 {
+          border-style: inset;
+          border-color: map-get($colors , tertiary );
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Fauna.jpg);
+          background-position: center;
+          @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
+        }
+
+      }
+      .section5 {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 35rem;
+        left: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/pesca2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        text-align: center;
+        article {
+          background: rgba(0, 3, 7, 0.8);
+          align-items: center;
+          padding: 1rem;
+          width: 100%;
+          transform: scaleY(1.1);
+          margin-top: 20%;
+          margin-bottom: 20%;
+          h2 {
+            color: map-get($colors , quarter);
+            line-height: 10rem;
+            line-height: 4rem;
+            font-size: 2.6em;
+          }
+          p {
+            line-height: 2.5rem;
+            font-size: 1.4em;
+          }
+        }
+      }
+    }
+  }
+}   

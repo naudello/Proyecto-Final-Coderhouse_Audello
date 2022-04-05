@@ -27,9 +27,6 @@ h2 {
 h3 {
   font-size: 3em; }
 
-h4 {
-  font-size: 1.8em; }
-
 p {
   font-size: 2em; }
 
@@ -200,6 +197,8 @@ p {
     padding: 2.5rem 10rem; }
     footer div {
       display: inline-block; }
+    footer h4 {
+      font-size: 2em; }
     footer ul {
       list-style-type: none; }
       footer ul li {
@@ -245,6 +244,8 @@ p {
     padding: 2.5rem 10rem; }
     footer div {
       display: inline-block; }
+    footer h4 {
+      font-size: 2em; }
     footer ul {
       list-style-type: none; }
       footer ul li {
@@ -287,7 +288,7 @@ p {
     height: 50rem;
     justify-content: space-between;
     background-color: #000;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 1rem;
     justify-content: space-between; }
     footer section {
       flex-direction: column;
@@ -295,6 +296,8 @@ p {
       text-align: center; }
       footer section div {
         display: inline-block; }
+      footer section h4 {
+        font-size: 1.5em; }
       footer section ul {
         list-style-type: none; }
         footer section ul li {
@@ -492,7 +495,7 @@ p {
           margin: 2rem;
           border-style: inset;
           border-color: #1877f2;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
           background-size: cover;
           display: inline-block;
           text-align: center;
@@ -576,7 +579,7 @@ p {
         width: 25%;
         margin: 0 1rem;
         border-style: inset;
-        border-color: #1877f2;
+        border-color: #79d2f5;
         background: rgba(0, 3, 7, 0.8); }
         body .grid .section2 .sec2 p {
           margin: 3rem;
@@ -635,10 +638,8 @@ p {
         background: rgba(0, 3, 7, 0.8);
         align-items: center;
         padding: 6.4rem;
-        position: absolute;
         width: 60rem;
         height: 45rem;
-        right: 12rem;
         transform: scaleY(1.1); }
         body .grid .section3 article h2 {
           color: #e2efff;
@@ -689,7 +690,7 @@ p {
         margin: 2rem;
         border-style: inset;
         border-color: #1877f2;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
         background-size: cover;
         display: inline-block;
         text-align: center;
@@ -712,7 +713,6 @@ p {
         padding: 6.4rem;
         width: 60rem;
         height: 45rem;
-        left: 12rem;
         transform: scaleY(1.1); }
         body .grid .section5 article h2 {
           color: #e2efff;
@@ -759,50 +759,64 @@ p {
           height: 3.2rem;
           line-height: 3rem;
           width: 31rem; }
-      body .grid .section2__1 {
+      body .grid .section2 {
         grid-column: 1 / 2;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/habitacion.jpg);
-        background-size: cover;
-        text-align: center;
-        background-position: bottom;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 3.5rem;
-        font-size: 1em; }
-      body .grid .section2__2 {
-        grid-column: 1 / 2;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/servicioPesca.jpg);
-        background-size: cover;
-        text-align: center;
-        background-position: bottom;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 3.5rem;
-        font-size: 1em; }
-      body .grid .section2__3 {
-        grid-column: 1 / 2;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/RestoBar.jpg);
-        background-size: cover;
-        text-align: center;
-        background-position: bottom;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 3.5rem;
-        font-size: 1em; }
-      body .grid .section2__4 {
-        grid-column: 1 / 2;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Naturaleza.jpg);
-        background-size: cover;
-        text-align: center;
-        background-position: bottom;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 3.5rem;
-        font-size: 1em; }
+        align-items: center;
+        margin: 2rem 0rem;
+        flex-wrap: wrap;
+        justify-content: center; }
+        body .grid .section2 .sec2 {
+          align-items: center;
+          text-align: center;
+          width: 90%;
+          margin: 0 0.5rem;
+          border-style: inset;
+          border-color: #79d2f5;
+          background: rgba(0, 3, 7, 0.8); }
+          body .grid .section2 .sec2 h3 {
+            font-size: 2.6em; }
+          body .grid .section2 .sec2 p {
+            text-align: center;
+            font-size: 1.6em;
+            margin: 3rem;
+            color: #1877f2;
+            text-align: left; }
+          body .grid .section2 .sec2 .section2__1 {
+            background: url(../asset/Image/habitacion.jpg);
+            background-size: cover;
+            display: inline-block;
+            text-align: center;
+            width: 90%;
+            height: 23rem;
+            padding-top: 1rem;
+            margin-top: 1rem; }
+          body .grid .section2 .sec2 .section2__2 {
+            background-size: cover;
+            display: inline-block;
+            text-align: center;
+            width: 90%;
+            height: 23rem;
+            padding-top: 1rem;
+            margin-top: 1rem;
+            background: url(../asset/Image/servicioPesca.jpg); }
+          body .grid .section2 .sec2 .section2__3 {
+            background: url(../asset/Image/RestoBar.jpg);
+            background-size: cover;
+            display: inline-block;
+            text-align: center;
+            width: 90%;
+            height: 23rem;
+            padding-top: 1rem;
+            margin-top: 1rem; }
+          body .grid .section2 .sec2 .section2__4 {
+            background: url(../asset/Image/Naturaleza.jpg);
+            background-size: cover;
+            display: inline-block;
+            text-align: center;
+            width: 90%;
+            height: 23rem;
+            padding-top: 1rem;
+            margin-top: 1rem; }
       body .grid .section3 {
         grid-column: 1 / 2;
         width: 100%;
@@ -811,9 +825,7 @@ p {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
-        text-align: center;
-        justify-content: center;
-        align-content: center; }
+        text-align: center; }
         body .grid .section3 article {
           background: rgba(0, 3, 7, 0.8);
           align-items: center;
@@ -830,50 +842,63 @@ p {
           body .grid .section3 article p {
             line-height: 2.5rem;
             font-size: 1.4em; }
-      body .grid .section4__1 {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Pileta.jpg);
-        background-size: cover;
+      body .grid .section4 {
         grid-column: 1 / 2;
-        text-align: center;
-        background-position: center;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 1.5rem;
-        font-size: 1em; }
-      body .grid .section4__2 {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg);
-        background-size: cover;
-        grid-column: 1 / 2;
-        text-align: center;
-        background-position: center;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 1.5rem;
-        font-size: 1em; }
-      body .grid .section4__3 {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
-        background-size: cover;
-        grid-column: 1 / 2;
-        text-align: center;
-        background-position: center;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 1.5rem;
-        font-size: 1em; }
-      body .grid .section4__4 {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
-        background-size: cover;
-        grid-column: 1 / 2;
-        text-align: center;
-        background-position: center;
-        width: 100%;
-        height: 10rem;
-        margin-top: 1rem;
-        padding-top: 1.5rem;
-        font-size: 1em; }
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+        flex-wrap: wrap;
+        justify-content: center; }
+        body .grid .section4 h3 {
+          font-size: 2.6em; }
+        body .grid .section4 .section4__1 {
+          height: 3rem;
+          border-style: inset;
+          border-color: #1877f2;
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Pileta.jpg);
+          background-position: bottom;
+          background-size: cover;
+          display: inline-block;
+          text-align: center;
+          width: 90%;
+          height: 15rem;
+          padding-top: 1rem;
+          margin-top: 1rem; }
+        body .grid .section4 .section4__2 {
+          border-style: inset;
+          border-color: #1877f2;
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg);
+          background-size: cover;
+          display: inline-block;
+          text-align: center;
+          width: 90%;
+          height: 15rem;
+          padding-top: 1rem;
+          margin-top: 1rem; }
+        body .grid .section4 .section4__3 {
+          border-style: inset;
+          border-color: #1877f2;
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
+          background-position: bottom;
+          background-size: cover;
+          display: inline-block;
+          text-align: center;
+          width: 90%;
+          height: 15rem;
+          padding-top: 1rem;
+          margin-top: 1rem; }
+        body .grid .section4 .section4__4 {
+          border-style: inset;
+          border-color: #1877f2;
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
+          background-position: center;
+          background-size: cover;
+          display: inline-block;
+          text-align: center;
+          width: 90%;
+          height: 15rem;
+          padding-top: 1rem;
+          margin-top: 1rem; }
       body .grid .section5 {
         grid-column: 1 / 2;
         width: 100%;
@@ -882,7 +907,8 @@ p {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center; }
+        background-position: left;
+        text-align: center; }
         body .grid .section5 article {
           background: rgba(0, 3, 7, 0.8);
           align-items: center;
@@ -893,6 +919,7 @@ p {
           margin-bottom: 20%; }
           body .grid .section5 article h2 {
             color: #e2efff;
+            line-height: 10rem;
             line-height: 4rem;
             font-size: 2.6em; }
           body .grid .section5 article p {
