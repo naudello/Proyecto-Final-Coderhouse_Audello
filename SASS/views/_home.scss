@@ -187,7 +187,7 @@
   body {
     
     .grid {
-      background-color: map-get($colors , tertiary);
+      background-color: map-get($colors , quarter);
       display: grid;
       grid-template-columns: 50% 50%;
       grid-template-rows: 7.2rem 70rem auto  45rem 30rem 45rem 20rem;

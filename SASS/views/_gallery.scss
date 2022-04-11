@@ -19,6 +19,15 @@
                 background-size:  cover;
                 background-attachment: scroll;   
                 text-align: center;  
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                }
             }
           
             .img {
@@ -77,7 +86,16 @@
                 background-position: center;
                 background-size:  cover;
                 background-attachment: scroll;   
-                text-align: center;  
+                text-align: center; 
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                } 
             }
             .img {
                 grid-column: 1 / span 2;
@@ -158,6 +176,15 @@
                 background-size:  cover;
                 background-attachment: scroll;   
                 text-align: center;
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                }
                
             }
             .img {

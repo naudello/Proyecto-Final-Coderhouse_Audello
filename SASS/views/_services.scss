@@ -19,7 +19,16 @@
                 background-position: center;
                 background-size:  cover;
                 background-attachment: scroll;   
-                text-align: center;  
+                text-align: center; 
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                } 
             }
             .hab {
                 grid-column: span 2;
@@ -136,7 +145,16 @@
                 background-position: center;
                 background-size:  cover;
                 background-attachment: scroll;   
-                text-align: center;  
+                text-align: center; 
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                } 
             }
             .hab {
                 grid-column: 1 / 2;
@@ -252,7 +270,16 @@
                 background-position: bottom;
                 background-size:  cover;
                 background-attachment: scroll;   
-                text-align: center;  
+                text-align: center; 
+                H1 {
+                    color: map-get($colors , principal);
+                    font-weight: bold;
+                    font-size: map-get($font-size , Xlarge ); 
+                    background-color: rgba(0, 0, 0, 0.4);
+                    height: 8rem;
+                    width: 80rem;
+                    margin: 0 auto;
+                } 
             }
             .hab {
                 grid-column: 1 / 2;
