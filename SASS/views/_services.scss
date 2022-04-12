@@ -274,10 +274,10 @@
                 H1 {
                     color: map-get($colors , principal);
                     font-weight: bold;
-                    font-size: map-get($font-size , Xlarge ); 
+                    font-size: 2.8em; 
                     background-color: rgba(0, 0, 0, 0.4);
                     height: 8rem;
-                    width: 80rem;
+                    width: 100%;
                     margin: 0 auto;
                 } 
             }
@@ -287,10 +287,6 @@
                 margin: 1rem;
                 padding: 5rem;
                 transition: all 0.9s; 
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
             }
             .resto {
                 grid-column: 1 / 2;
@@ -298,10 +294,7 @@
                 margin: 1rem;
                 padding: 5rem; 
                 transition: all 0.9s;
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
+               
                 
             }
             .paquetes {
@@ -311,10 +304,7 @@
                 width: 100%;
                 padding: 5rem;
                 transition: all 0.9s; 
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
+                
             }
             .sorteo {
                 grid-column: 1 / span 4;
@@ -323,13 +313,26 @@
                 width: 100%;
                 padding: 5rem;
                 transition: all 0.9s;
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
+                // h2 { 
+                //     color: map-get($colors , secondary);
+                //     text-align: center;
+                // }
                 ol li {
-                    font-size: 1.6em;
+                    font-size: 1.3em;
+                    color: #000;
                 }
+            }
+            h2 {
+                color: map-get($colors , secondary);
+                text-align: center;
+                font-size: 3em;
+            } 
+            h3 {
+                font-size: 1.5em ;
+            }
+            p {
+                font-size: 1.3em;
+                line-height: 1.6em;
             }
         }  
     }   

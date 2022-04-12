@@ -498,27 +498,27 @@
         .section4__1 {
           height: 3rem;
           border-style: inset;
-          border-color: map-get($colors , tertiary );
+          border-color: map-get($colors , hoverserv);
           background:  linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Pileta.jpg);
           background-position: bottom;
           @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
         }
         .section4__2 {
           border-style: inset;
-          border-color: map-get($colors , tertiary );
+          border-color: map-get($colors , hoverserv);
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Desayuno.jpg);
           @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
         }
         .section4__3 {
           border-style: inset;
-          border-color: map-get($colors , tertiary );
+          border-color: map-get($colors , hoverserv);
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Bajada.jpg);
           background-position: bottom;
           @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)
         }
         .section4__4 {
           border-style: inset;
-          border-color: map-get($colors , tertiary );
+          border-color: map-get($colors , hoverserv);
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../asset/Image/Fauna.jpg);
           background-position: center;
           @include sectionSmall ($backsize: cover, $display: inline-block, $talign: center, $width: 90%, $height: 15rem,  $ptop: 1rem, $margtop: 1rem)

@@ -263,16 +263,15 @@
                 background: url(../asset/Image/backgroundpage2.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size:  cover;
-                background-attachment: scroll;   
-                text-align: center;  
+                background-size:  cover;  
+                text-align: center; 
                 H1 {
                     color: map-get($colors , principal);
                     font-weight: bold;
-                    font-size: map-get($font-size , Xlarge ); 
+                    font-size: 2.8em; 
                     background-color: rgba(0, 0, 0, 0.4);
                     height: 8rem;
-                    width: 80rem;
+                    width: 100%;
                     margin: 0 auto;
                 } 
             }
