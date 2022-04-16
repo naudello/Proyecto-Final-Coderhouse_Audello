@@ -4,7 +4,7 @@
     .grid {
       display: grid;
       grid-template-columns: auto auto auto auto;
-      grid-template-rows: 7.2rem 70rem auto auto 38rem 45rem 20rem;
+      grid-template-rows: 7.2rem 70rem auto auto auto auto 20rem;
       justify-items: center;
       align-items: center;
       .section1 {
@@ -13,11 +13,10 @@
         align-items: center;
         height: 70rem;
         background: url(../asset/Image/dorado2.jpg);
-        max-width: 100%;
-        min-width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size:  cover;
+        width: 100%;
         background-attachment: scroll;
         h1 {
           color: map-get($colors , principal);
@@ -199,8 +198,7 @@
         align-items: center;
         height: 70rem;
         background: url(../asset/Image/dorado2.jpg);
-        max-width: 100%;
-        min-width: 100%;
+        width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size:  cover;

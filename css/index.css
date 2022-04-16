@@ -79,6 +79,9 @@ p {
         justify-content: space-between;
         font-weight: bold;
         list-style-type: none; }
+        header .navbar .menu .pos {
+          background-color: #1877f2;
+          color: #fff; }
         header .navbar .menu__links {
           text-decoration: none;
           font-size: 1.4em;
@@ -126,6 +129,9 @@ p {
         justify-content: space-between;
         font-weight: bold;
         list-style-type: none; }
+        header .navbar .menu .pos {
+          background-color: #1877f2;
+          color: #fff; }
         header .navbar .menu__links {
           text-decoration: none;
           font-size: 1.4em;
@@ -173,6 +179,9 @@ p {
         font-weight: bold;
         list-style-type: none;
         padding: 0.5rem 0; }
+        header .navbar .menu .pos {
+          background-color: #1877f2;
+          color: #fff; }
         header .navbar .menu__links {
           text-decoration: none;
           font-size: 1.2em;
@@ -337,7 +346,7 @@ p {
     body .grid {
       display: grid;
       grid-template-columns: auto auto auto auto;
-      grid-template-rows: 7.2rem 70rem auto auto 38rem 45rem 20rem;
+      grid-template-rows: 7.2rem 70rem auto auto auto auto 20rem;
       justify-items: center;
       align-items: center; }
       body .grid .section1 {
@@ -346,11 +355,10 @@ p {
         align-items: center;
         height: 70rem;
         background: url(../asset/Image/dorado2.jpg);
-        max-width: 100%;
-        min-width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: cover;
+        width: 100%;
         background-attachment: scroll; }
         body .grid .section1 h1 {
           color: #fff;
@@ -541,8 +549,7 @@ p {
       align-items: center;
       height: 70rem;
       background: url(../asset/Image/dorado2.jpg);
-      max-width: 100%;
-      min-width: 100%;
+      width: 100%;
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: cover;
@@ -932,7 +939,8 @@ p {
       display: grid;
       grid-template-columns: auto auto auto auto;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 1024px) and (min-width: 1024px) {
       body .gridC .back {
         grid-column: 1 / span 4;
         width: 100%;
@@ -940,7 +948,8 @@ p {
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundpage2.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -953,14 +962,62 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridC .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (max-width: 767px) {
+      body .gridC .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 1024px) {
       body .gridC .form {
         grid-column: 1 / span 4;
         background-color: #1877f2;
         padding: 4rem 12rem;
         width: 100%;
         color: #000;
-        margin-top: 5rem; }
+        margin-top: 2rem; }
         body .gridC .form label {
           font-size: 2.2em; }
         body .gridC .form input {
@@ -1036,15 +1093,17 @@ p {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 7.2rem 50rem 1fr 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 1024px) {
       body .gridC .back {
-        grid-column: 1 / 3;
+        grid-column: 1 / span 4;
         width: 100%;
-        height: 50rem;
+        height: 70rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundpage2.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1057,7 +1116,55 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridC .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
+      body .gridC .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridC .form {
         grid-column: 1 / 3;
         background-color: #1877f2;
@@ -1137,7 +1244,54 @@ p {
       display: grid;
       grid-template-columns: 100%;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (max-width: 767px) and (min-width: 1024px) {
+      body .gridC .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridC .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridC .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridC .back {
         grid-column: 1 / 2;
         width: 100%;
@@ -1145,10 +1299,12 @@ p {
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundpage2.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
+        background-attachment: scroll;
         text-align: center; }
         body .gridC .back H1 {
           color: #fff;
@@ -1157,7 +1313,9 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 100%;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+
+@media only screen and (max-width: 767px) {
       body .gridC .form {
         grid-column: 1 / 2;
         background-color: #1877f2;
@@ -1241,7 +1399,8 @@ p {
       grid-template-rows: 7.2rem 70rem auto auto 20rem;
       justify-items: center;
       align-items: center;
-      text-align: center; }
+      text-align: center; } }
+    @media only screen and (min-width: 1024px) and (min-width: 1024px) {
       body .gridG .back {
         grid-column: 1 / span 4;
         width: 100%;
@@ -1249,7 +1408,8 @@ p {
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundpage3.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1262,7 +1422,55 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridG .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (max-width: 767px) {
+      body .gridG .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 1024px) {
       body .gridG .img {
         grid-column: 1 / span 4;
         display: flex;
@@ -1292,15 +1500,17 @@ p {
       grid-template-columns: auto auto;
       grid-template-rows: 7.2rem 50rem auto auto 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 1024px) {
       body .gridG .back {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 4;
         width: 100%;
-        height: 50rem;
+        height: 70rem;
         left: 0px;
         top: 0px;
-        padding-top: 220px;
-        background: url(../asset/Image/backgroundpage3.jpg);
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1313,7 +1523,55 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridG .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
+      body .gridG .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridG .img {
         grid-column: 1 / span 2;
         display: flex;
@@ -1358,14 +1616,63 @@ p {
       display: grid;
       grid-template-columns: 100%;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (max-width: 767px) and (min-width: 1024px) {
       body .gridG .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridG .back {
+        grid-column: 1 / 3;
         width: 100%;
         height: 50rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundpage3.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridG .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (max-width: 767px) {
+      body .gridG .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: cover;
@@ -1378,7 +1685,9 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 100%;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+
+@media only screen and (max-width: 767px) {
       body .gridG .img {
         grid-column: 1 / 2;
         display: flex;
@@ -1404,7 +1713,8 @@ p {
       grid-template-columns: auto auto auto auto;
       grid-template-rows: 7.2rem auto auto auto auto 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 1024px) and (min-width: 1024px) {
       body .gridP .back {
         grid-column: 1 / span 4;
         width: 100%;
@@ -1412,7 +1722,7 @@ p {
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundPages.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1426,10 +1736,58 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridP .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (max-width: 767px) {
+      body .gridP .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 1024px) {
       body .gridP .hist {
         grid-column: 1 / span 4;
-        margin-top: 10rem;
+        margin-top: 2rem;
         transition: all 0.9s; }
         body .gridP .hist:hover {
           text-shadow: -10px 3px 6px #FFFFFF;
@@ -1441,7 +1799,7 @@ p {
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
       body .gridP .instal {
         grid-column: 1 / span 4;
-        margin-top: 10rem;
+        margin-top: 2rem;
         transition: all 0.9s; }
         body .gridP .instal:hover {
           text-shadow: -10px 3px 6px #FFFFFF;
@@ -1488,15 +1846,16 @@ p {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 7.2rem auto auto auto auto 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 1024px) {
       body .gridP .back {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 4;
         width: 100%;
-        height: 50rem;
+        height: 70rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundPages.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1510,7 +1869,55 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridP .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
+      body .gridP .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridP .hist {
         grid-column: 1 / span 2;
         margin-top: 2rem;
@@ -1571,7 +1978,54 @@ p {
       display: grid;
       grid-template-columns: 100%;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (max-width: 767px) and (min-width: 1024px) {
+      body .gridP .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridP .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridP .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridP .back {
         grid-column: 1 / 2;
         width: 100%;
@@ -1579,10 +2033,10 @@ p {
         left: 0px;
         top: 0px;
         padding-top: 22rem;
-        background: url(../asset/Image/backgroundPages.jpg);
+        background: url(../asset/Image/backgroundpage4.jpg);
         max-width: 100%;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         background-attachment: scroll;
         text-align: center; }
@@ -1593,7 +2047,9 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 100%;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+
+@media only screen and (max-width: 767px) {
       body .gridP .hist {
         grid-column: 1 / 2;
         margin-top: 0.1rem;
@@ -1634,7 +2090,8 @@ p {
       grid-template-columns: auto auto auto auto;
       grid-template-rows: 7.2rem auto auto auto auto 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 1024px) and (min-width: 1024px) {
       body .gridS .back {
         grid-column: 1 / span 4;
         width: 100%;
@@ -1656,11 +2113,59 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridS .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 1024px) and (max-width: 767px) {
+      body .gridS .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 1024px) {
       body .gridS .hab {
         grid-column: span 2;
         background-color: #1877f2;
-        margin: 1rem;
+        margin: 2rem;
         padding: 5rem;
         transition: all 0.9s; }
         body .gridS .hab:hover {
@@ -1676,7 +2181,7 @@ p {
       body .gridS .resto {
         grid-column: span 2;
         background-color: #1877f2;
-        margin: 1rem;
+        margin: 2rem;
         padding: 5rem;
         transition: all 0.9s; }
         body .gridS .resto:hover {
@@ -1692,7 +2197,7 @@ p {
       body .gridS .paquetes {
         grid-column: 1 / span 4;
         background-color: #1877f2;
-        margin: 1rem;
+        margin: 2rem;
         width: 100%;
         padding: 5rem;
         transition: all 0.9s; }
@@ -1708,7 +2213,7 @@ p {
       body .gridS .sorteo {
         grid-column: 1 / span 4;
         background-color: #1877f2;
-        margin: 1rem;
+        margin: 2rem;
         width: 100%;
         padding: 5rem;
         transition: all 0.9s; }
@@ -1732,7 +2237,31 @@ p {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 7.2rem auto auto auto auto 20rem;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 1024px) {
+      body .gridS .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
       body .gridS .back {
         grid-column: 1 / 3;
         width: 100%;
@@ -1754,7 +2283,32 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 80rem;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
+      body .gridS .back {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 2.8em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 100%;
+          margin: 0 auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridS .hab {
         grid-column: 1 / 2;
         background-color: #1877f2;
@@ -1829,7 +2383,54 @@ p {
       display: grid;
       grid-template-columns: 100%;
       justify-items: center;
-      align-items: center; }
+      align-items: center; } }
+    @media only screen and (max-width: 767px) and (min-width: 1024px) {
+      body .gridS .back {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
+      body .gridS .back {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center; }
+        body .gridS .back H1 {
+          color: #fff;
+          font-weight: bold;
+          font-size: 6.4em;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 8rem;
+          width: 80rem;
+          margin: 0 auto; } }
+    @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridS .back {
         grid-column: 1 / 2;
         width: 100%;
@@ -1851,7 +2452,9 @@ p {
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
           width: 100%;
-          margin: 0 auto; }
+          margin: 0 auto; } }
+
+@media only screen and (max-width: 767px) {
       body .gridS .hab {
         grid-column: 1 / 2;
         background-color: #1877f2;

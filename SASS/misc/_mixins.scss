@@ -25,3 +25,77 @@
         
 }
 
+@mixin baner {
+    @media only screen and (min-width:1024px) {
+        grid-column: 1 / span 4;
+        width: 100%;
+        height: 70rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:  cover;
+        background-attachment: scroll;   
+        text-align: center; 
+        H1 {
+            color: map-get($colors , principal);
+            font-weight: bold;
+            font-size: map-get($font-size , Xlarge ); 
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 8rem;
+            width: 80rem;
+            margin: 0 auto;
+        } 
+    }
+    @media only screen and (min-width: 768px) and (max-width:1023px) {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:  cover;
+        background-attachment: scroll;   
+        text-align: center; 
+        H1 {
+            color: map-get($colors , principal);
+            font-weight: bold;
+            font-size: map-get($font-size , Xlarge ); 
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 8rem;
+            width: 80rem;
+            margin: 0 auto;
+        } 
+    } 
+    @media only screen and (max-width: 767px) {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 50rem;
+        left: 0px;
+        top: 0px;
+        padding-top: 22rem;
+        background: url(../asset/Image/backgroundpage4.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:  cover;
+        background-attachment: scroll;   
+        text-align: center; 
+        H1 {
+            color: map-get($colors , principal);
+            font-weight: bold;
+            font-size: 2.8em; 
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 8rem;
+            width: 100%;
+            margin: 0 auto;
+        } 
+    }
+}

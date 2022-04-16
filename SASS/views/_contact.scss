@@ -6,27 +6,7 @@
             justify-items: center;
             align-items: center;
             .back {
-                grid-column: 1 / span 4;
-                width: 100%;
-                height: 70rem;
-                left: 0px;
-                top: 0px;
-                padding-top: 22rem;
-                background: url(../asset/Image/backgroundpage2.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size:  cover;
-                background-attachment: scroll;   
-                text-align: center;   
-                H1 {
-                    color: map-get($colors , principal);
-                    font-weight: bold;
-                    font-size: map-get($font-size , Xlarge ); 
-                    background-color: rgba(0, 0, 0, 0.4);
-                    height: 8rem;
-                    width: 80rem;
-                    margin: 0 auto;
-                }
+                @include baner
             }
             .form {
                 grid-column: 1 / span 4;
@@ -34,7 +14,7 @@
                 padding: 4rem 12rem;
                 width: 100%;
                 color: map-get($colors , secondary);
-                margin-top: 5rem;
+                margin-top: 2rem;
                 label {
                     font-size: 2.2em;
                 }
@@ -131,27 +111,7 @@
             justify-items: center;
             align-items: center;
             .back {
-                grid-column: 1 / 3;
-                width: 100%;
-                height: 50rem;
-                left: 0px;
-                top: 0px;
-                padding-top: 22rem;
-                background: url(../asset/Image/backgroundpage2.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size:  cover;
-                background-attachment: scroll;   
-                text-align: center;  
-                H1 {
-                    color: map-get($colors , principal);
-                    font-weight: bold;
-                    font-size: map-get($font-size , Xlarge ); 
-                    background-color: rgba(0, 0, 0, 0.4);
-                    height: 8rem;
-                    width: 80rem;
-                    margin: 0 auto;
-                } 
+               @include baner
             }
             .form {
                 grid-column: 1 / 3;
@@ -254,26 +214,7 @@
             justify-items: center;
             align-items: center;
             .back {
-                grid-column: 1 / 2;
-                width: 100%;
-                height: 50rem;
-                left: 0px;
-                top: 0px;
-                padding-top: 22rem;
-                background: url(../asset/Image/backgroundpage2.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size:  cover;  
-                text-align: center; 
-                H1 {
-                    color: map-get($colors , principal);
-                    font-weight: bold;
-                    font-size: 2.8em; 
-                    background-color: rgba(0, 0, 0, 0.4);
-                    height: 8rem;
-                    width: 100%;
-                    margin: 0 auto;
-                } 
+                @include  baner
             }
             .form {
                 grid-column: 1 / 2;
