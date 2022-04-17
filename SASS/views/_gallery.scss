@@ -35,6 +35,24 @@
                     }
                     
                 }
+                .izq {
+                    picture{
+                        img{
+                            &:hover {
+                                transform: scale(1.6) rotate(360deg) translate(10rem);
+                            }  
+                        }
+                    }   
+                }
+                .der {
+                    picture{
+                        img{
+                            &:hover {
+                                transform: scale(1.4) rotate(360deg) translate(-10rem);
+                               }  
+                        }
+                    }   
+                }
             }
             .video {
                 grid-column: 1 / span 4;
@@ -66,9 +84,10 @@
                 .column {
                     flex: 50%;
                     padding: 0.5rem;
+                    margin-top: 0.5rem;
                     
                 }
-                .colimp {
+                .colimp, .colpar {
                     picture{
                         img{
                             width: 100%;
@@ -76,12 +95,19 @@
                             border: 0.1rem solid;
                             transition: all 0.9s;
                             &:hover {
-                                transform: scale(1.35) rotate(360deg) translate(10rem);
                                 transition: all 0.9s;
                                 border: 0.5rem solid;
                                 border-color: map-get($colors, principal);
-                              translate:initial;
-                           
+                                translate:initial;
+                            }  
+                        }
+                    }   
+                }
+                .colimp {
+                    picture{
+                        img{
+                            &:hover {
+                                transform: scale(1.4) rotate(360deg) translate(10rem);
                             }  
                         }
                     }   
@@ -89,18 +115,9 @@
                 .colpar {
                     picture{
                         img{
-                            width: 100%;
-                            margin-top: 0.5rem;
-                            border: 0.1rem solid;
-                            transition: all 0.9s;
                             &:hover {
                                 transform: scale(1.4) rotate(360deg) translate(-10rem);
-                                transition: all 0.9s;
-                                border: 0.5rem solid;
-                                border-color: map-get($colors, principal);
-                              translate:initial;
-                           
-                            }  
+                               }  
                         }
                     }   
                 }
@@ -130,6 +147,7 @@
             .img {
                 grid-column: 1 / 2;
                 display: flex;
+                margin-top: 0.5rem;
                 flex-wrap: wrap;
                 padding: 0.5rem;
                 .column {

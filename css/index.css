@@ -358,8 +358,7 @@ p {
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: cover;
-        width: 100%;
-        background-attachment: scroll; }
+        width: 100%; }
         body .grid .section1 h1 {
           color: #fff;
           font-weight: bold;
@@ -387,7 +386,7 @@ p {
           align-items: center;
           text-align: center;
           width: 25%;
-          margin: 0 1rem;
+          margin: 0 1rem 2rem 1rem;
           border-style: inset;
           border-color: #1877f2;
           background: rgba(0, 3, 7, 0.8); }
@@ -404,6 +403,7 @@ p {
             height: 23rem;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 2rem;
             border-radius: 50%; }
           body .grid .section2 .sec2 .section2__2 {
             background-size: cover;
@@ -413,6 +413,7 @@ p {
             height: 23rem;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 2rem;
             background: url(../asset/Image/servicioPesca.jpg);
             border-radius: 50%; }
           body .grid .section2 .sec2 .section2__3 {
@@ -424,6 +425,7 @@ p {
             height: 23rem;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 2rem;
             border-radius: 50%; }
           body .grid .section2 .sec2 .section2__4 {
             background: url(../asset/Image/Naturaleza.jpg);
@@ -434,38 +436,46 @@ p {
             height: 23rem;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 2rem;
             border-radius: 50%; }
       body .grid .section3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg);
+        background-position: bottom; }
+        body .grid .section3 article {
+          right: 12rem; }
+      body .grid .section5 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
+        background-position: center; }
+        body .grid .section5 article {
+          left: 12rem; }
+      body .grid .section3, body .grid .section5 {
         grid-column: 1 / span 4;
         width: 100%;
         height: 45rem;
         left: 0px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom; }
-        body .grid .section3 article {
+        background-size: cover; }
+        body .grid .section3 article, body .grid .section5 article {
           background: rgba(24, 119, 242, 0.8);
           align-items: flex-start;
           padding: 6.4rem;
           position: absolute;
           width: 60rem;
           height: 45rem;
-          right: 12rem;
           transform: scaleY(1.1); }
-          body .grid .section3 article h2 {
+          body .grid .section3 article h2, body .grid .section5 article h2 {
             color: #000;
             line-height: 10rem; }
-          body .grid .section3 article p {
+          body .grid .section3 article p, body .grid .section5 article p {
             line-height: 3.2rem; }
       body .grid .section4 {
         grid-column: 1 / span 4;
         align-items: start;
         margin: 2rem 0rem; }
-        body .grid .section4 .section4__1 {
-          margin: 2rem;
+        body .grid .section4 .section4__1, body .grid .section4 .section4__2, body .grid .section4 .section4__3, body .grid .section4 .section4__4 {
           border-style: inset;
-          border-color: #1877f2;
+          border-color: #1877f2; }
+        body .grid .section4 .section4__1 {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Pileta.jpg);
           background-size: cover;
           display: inline-block;
@@ -473,11 +483,9 @@ p {
           width: 90%;
           height: 23rem;
           padding-top: 1rem;
-          margin-top: 1rem; }
+          margin-top: 1rem;
+          margin: 2rem; }
         body .grid .section4 .section4__2 {
-          margin: 2rem;
-          border-style: inset;
-          border-color: #1877f2;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg);
           background-size: cover;
           display: inline-block;
@@ -485,11 +493,9 @@ p {
           width: 90%;
           height: 23rem;
           padding-top: 1rem;
-          margin-top: 1rem; }
+          margin-top: 1rem;
+          margin: 2rem; }
         body .grid .section4 .section4__3 {
-          margin: 2rem;
-          border-style: inset;
-          border-color: #1877f2;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
           background-size: cover;
           display: inline-block;
@@ -497,11 +503,9 @@ p {
           width: 90%;
           height: 23rem;
           padding-top: 1rem;
-          margin-top: 1rem; }
+          margin-top: 1rem;
+          margin: 2rem; }
         body .grid .section4 .section4__4 {
-          margin: 2rem;
-          border-style: inset;
-          border-color: #1877f2;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
           background-size: cover;
           display: inline-block;
@@ -509,32 +513,9 @@ p {
           width: 90%;
           height: 23rem;
           padding-top: 1rem;
-          margin-top: 1rem; }
-      body .grid .section5 {
-        grid-column: 1 / span 4;
-        width: 100%;
-        height: 45rem;
-        left: 0px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; }
-        body .grid .section5 article {
-          background: rgba(24, 119, 242, 0.8);
-          align-items: flex-start;
-          padding: 6.4rem;
-          position: absolute;
-          width: 60rem;
-          height: 45rem;
-          left: 12rem;
-          transform: scaleY(1.1); }
-          body .grid .section5 article h2 {
-            color: #000;
-            line-height: 10rem; }
-          body .grid .section5 article p {
-            line-height: 3.2rem; } }
+          margin-top: 1rem;
+          margin: 2rem; } }
 
-/* Vista tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body .grid {
     background-color: #e2efff;
@@ -582,10 +563,10 @@ p {
       body .grid .section2 .sec2 {
         align-items: center;
         text-align: center;
-        width: 25%;
-        margin: 0 1rem;
+        width: 45%;
+        margin: 0 1rem 2rem 1rem;
         border-style: inset;
-        border-color: #79d2f5;
+        border-color: #1877f2;
         background: rgba(0, 3, 7, 0.8); }
         body .grid .section2 .sec2 p {
           margin: 3rem;
@@ -600,6 +581,7 @@ p {
           height: 23rem;
           padding-top: 1rem;
           margin-top: 1rem;
+          margin: 2rem;
           border-radius: 50%; }
         body .grid .section2 .sec2 .section2__2 {
           background-size: cover;
@@ -609,6 +591,7 @@ p {
           height: 23rem;
           padding-top: 1rem;
           margin-top: 1rem;
+          margin: 2rem;
           background: url(../asset/Image/servicioPesca.jpg);
           border-radius: 50%; }
         body .grid .section2 .sec2 .section2__3 {
@@ -620,6 +603,7 @@ p {
           height: 23rem;
           padding-top: 1rem;
           margin-top: 1rem;
+          margin: 2rem;
           border-radius: 50%; }
         body .grid .section2 .sec2 .section2__4 {
           background: url(../asset/Image/Naturaleza.jpg);
@@ -630,36 +614,42 @@ p {
           height: 23rem;
           padding-top: 1rem;
           margin-top: 1rem;
+          margin: 2rem;
           border-radius: 50%; }
     body .grid .section3 {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg);
+      background-position: left; }
+    body .grid .section5 {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
+      background-position: center; }
+    body .grid .section3, body .grid .section5 {
       grid-column: 1 / span 2;
       width: 100%;
       height: 45rem;
       left: 0px;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg);
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position: left; }
-      body .grid .section3 article {
+      background-size: cover; }
+      body .grid .section3 article, body .grid .section5 article {
         background: rgba(0, 3, 7, 0.8);
         align-items: center;
         padding: 6.4rem;
         width: 60rem;
         height: 45rem;
         transform: scaleY(1.1); }
-        body .grid .section3 article h2 {
+        body .grid .section3 article h2, body .grid .section5 article h2 {
           color: #e2efff;
           line-height: 10rem; }
-        body .grid .section3 article p {
+        body .grid .section3 article p, body .grid .section5 article p {
           line-height: 3.2rem; }
     body .grid .section4 {
       grid-column: 1 / span 2;
       align-items: start;
       margin: 2rem 0rem; }
-      body .grid .section4 .section4__1 {
+      body .grid .section4 .section4__1, body .grid .section4 .section4__2, body .grid .section4 .section4__3, body .grid .section4 .section4__4 {
         margin: 2rem;
         border-style: inset;
-        border-color: #1877f2;
+        border-color: #1877f2; }
+      body .grid .section4 .section4__1 {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Pileta.jpg);
         background-size: cover;
         display: inline-block;
@@ -667,11 +657,9 @@ p {
         width: 90%;
         height: 23rem;
         padding-top: 1rem;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        margin: 2rem; }
       body .grid .section4 .section4__2 {
-        margin: 2rem;
-        border-style: inset;
-        border-color: #1877f2;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg);
         background-size: cover;
         display: inline-block;
@@ -679,11 +667,9 @@ p {
         width: 90%;
         height: 23rem;
         padding-top: 1rem;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        margin: 2rem; }
       body .grid .section4 .section4__3 {
-        margin: 2rem;
-        border-style: inset;
-        border-color: #1877f2;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
         background-size: cover;
         display: inline-block;
@@ -691,11 +677,9 @@ p {
         width: 90%;
         height: 23rem;
         padding-top: 1rem;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        margin: 2rem; }
       body .grid .section4 .section4__4 {
-        margin: 2rem;
-        border-style: inset;
-        border-color: #1877f2;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
         background-size: cover;
         display: inline-block;
@@ -703,30 +687,9 @@ p {
         width: 90%;
         height: 23rem;
         padding-top: 1rem;
-        margin-top: 1rem; }
-    body .grid .section5 {
-      grid-column: 1 / span 2;
-      width: 100%;
-      height: 45rem;
-      left: 0px;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
-      body .grid .section5 article {
-        background: rgba(0, 3, 7, 0.8);
-        align-items: center;
-        padding: 6.4rem;
-        width: 60rem;
-        height: 45rem;
-        transform: scaleY(1.1); }
-        body .grid .section5 article h2 {
-          color: #e2efff;
-          line-height: 10rem; }
-        body .grid .section5 article p {
-          line-height: 3.2rem; } }
+        margin-top: 1rem;
+        margin: 2rem; } }
 
-/* Vista mobile */
 @media only screen and (max-width: 767px) {
   body {
     background-color: #000; }
@@ -739,17 +702,16 @@ p {
         grid-column: 1 / 2;
         justify-content: center;
         align-items: center;
-        height: 35rem;
+        height: 40rem;
         background: url(../asset/Image/dorado2.jpg);
         width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: cover;
-        background-attachment: scroll; }
+        background-size: cover; }
         body .grid .section1 h1 {
           color: #fff;
           font-weight: bold;
-          font-size: 2.8em;
+          font-size: 3em;
           background-color: rgba(0, 0, 0, 0.4);
           text-align: center;
           height: 3.2rem;
@@ -795,7 +757,8 @@ p {
             width: 90%;
             height: 23rem;
             padding-top: 1rem;
-            margin-top: 1rem; }
+            margin-top: 1rem;
+            margin: 2rem; }
           body .grid .section2 .sec2 .section2__2 {
             background-size: cover;
             display: inline-block;
@@ -804,6 +767,7 @@ p {
             height: 23rem;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 2rem;
             background: url(../asset/Image/servicioPesca.jpg); }
           body .grid .section2 .sec2 .section2__3 {
             background: url(../asset/Image/RestoBar.jpg);
@@ -813,7 +777,8 @@ p {
             width: 90%;
             height: 23rem;
             padding-top: 1rem;
-            margin-top: 1rem; }
+            margin-top: 1rem;
+            margin: 2rem; }
           body .grid .section2 .sec2 .section2__4 {
             background: url(../asset/Image/Naturaleza.jpg);
             background-size: cover;
@@ -822,17 +787,21 @@ p {
             width: 90%;
             height: 23rem;
             padding-top: 1rem;
-            margin-top: 1rem; }
+            margin-top: 1rem;
+            margin: 2rem; }
       body .grid .section3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg); }
+      body .grid .section5 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg); }
+      body .grid .section3, body .grid .section5 {
         grid-column: 1 / 2;
         width: 100%;
         height: 35rem;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/complejo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
         text-align: center; }
-        body .grid .section3 article {
+        body .grid .section3 article, body .grid .section5 article {
           background: rgba(0, 3, 7, 0.8);
           align-items: center;
           padding: 1rem;
@@ -840,97 +809,42 @@ p {
           transform: scaleY(1.1);
           margin-top: 20%;
           margin-bottom: 20%; }
-          body .grid .section3 article h2 {
+          body .grid .section3 article h2, body .grid .section5 article h2 {
             color: #e2efff;
             line-height: 10rem;
             line-height: 4rem;
             font-size: 2.6em; }
-          body .grid .section3 article p {
+          body .grid .section3 article p, body .grid .section5 article p {
             line-height: 2.5rem;
             font-size: 1.4em; }
       body .grid .section4 {
         grid-column: 1 / 2;
         align-items: center;
         width: 90%;
-        margin: 1rem;
+        margin: 2rem 0rem;
         flex-wrap: wrap;
         justify-content: center; }
         body .grid .section4 h3 {
           font-size: 2.6em; }
         body .grid .section4 .section4__1 {
-          height: 3rem;
-          border-style: inset;
-          border-color: #79d2f5;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Pileta.jpg);
-          background-position: bottom;
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 90%;
-          height: 15rem;
-          padding-top: 1rem;
-          margin-top: 1rem; }
+          background-position: bottom; }
         body .grid .section4 .section4__2 {
-          border-style: inset;
-          border-color: #79d2f5;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg);
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 90%;
-          height: 15rem;
-          padding-top: 1rem;
-          margin-top: 1rem; }
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Desayuno.jpg); }
         body .grid .section4 .section4__3 {
-          border-style: inset;
-          border-color: #79d2f5;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Bajada.jpg);
-          background-position: bottom;
-          background-size: cover;
-          display: inline-block;
-          text-align: center;
-          width: 90%;
-          height: 15rem;
-          padding-top: 1rem;
-          margin-top: 1rem; }
+          background-position: bottom; }
         body .grid .section4 .section4__4 {
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
+          background-position: center; }
+        body .grid .section4 .section4__1, body .grid .section4 .section4__2, body .grid .section4 .section4__3, body .grid .section4 .section4__4 {
           border-style: inset;
           border-color: #79d2f5;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/Fauna.jpg);
-          background-position: center;
           background-size: cover;
-          display: inline-block;
           text-align: center;
-          width: 90%;
-          height: 15rem;
-          padding-top: 1rem;
-          margin-top: 1rem; }
-      body .grid .section5 {
-        grid-column: 1 / 2;
-        width: 100%;
-        height: 35rem;
-        left: 0px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../asset/Image/pesca2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-        text-align: center; }
-        body .grid .section5 article {
-          background: rgba(0, 3, 7, 0.8);
-          align-items: center;
-          padding: 1rem;
           width: 100%;
-          transform: scaleY(1.1);
-          margin-top: 20%;
-          margin-bottom: 20%; }
-          body .grid .section5 article h2 {
-            color: #e2efff;
-            line-height: 10rem;
-            line-height: 4rem;
-            font-size: 2.6em; }
-          body .grid .section5 article p {
-            line-height: 2.5rem;
-            font-size: 1.4em; } }
+          height: 15rem;
+          padding-top: 1rem; } }
 
 @media only screen and (min-width: 1024px) {
   body {
@@ -990,7 +904,7 @@ p {
       body .gridC .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1024,37 +938,32 @@ p {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
           text-align: center; }
-        body .gridC .form .dato {
+        body .gridC .form .dato, body .gridC .form .radio, body .gridC .form .value, body .gridC .form .Obs {
           background-color: #e2efff;
           padding: 2rem; }
-          body .gridC .form .dato input {
-            width: 25rem;
-            height: 2.5rem; }
+        body .gridC .form .dato input {
+          width: 25rem;
+          height: 2.5rem; }
         body .gridC .form .radio {
-          background-color: #e2efff;
-          padding: 2rem;
           font-size: 1.5em; }
           body .gridC .form .radio input {
             cursor: pointer;
-            height: 2rem; }
-        body .gridC .form .value {
-          background-color: #e2efff;
-          padding: 2rem; }
+            height: 1.5rem;
+            width: 1.5rem; }
         body .gridC .form .form-select {
           width: 60rem; }
-        body .gridC .form .Obs {
-          background-color: #e2efff;
-          padding: 2rem; }
-          body .gridC .form .Obs textarea {
-            width: 70rem;
-            height: 10rem;
-            background-color: rgba(199, 199, 199, 0.4); }
+        body .gridC .form .Obs textarea {
+          width: 70rem;
+          height: 10rem;
+          background-color: rgba(199, 199, 199, 0.4); }
         body .gridC .form .nov {
           color: #fff;
           padding-top: 4rem; }
           body .gridC .form .nov input {
-            cursor: pointer; }
-        body .gridC .form .reset {
+            cursor: pointer;
+            height: 1.5rem;
+            width: 1.5rem; }
+        body .gridC .form .reset, body .gridC .form .submit {
           width: 15rem;
           height: 3.5rem;
           padding: 0.9rem 2.5rem;
@@ -1066,22 +975,7 @@ p {
           font-weight: bold;
           font-size: 1.4em;
           cursor: pointer; }
-          body .gridC .form .reset:hover {
-            background-color: #034192;
-            color: #fff; }
-        body .gridC .form .submit {
-          width: 15rem;
-          height: 3.5rem;
-          padding: 0.9rem 2.5rem;
-          background-color: #e2efff;
-          border: none;
-          border-radius: 5rem;
-          transition: all 0.3s ease-in-out;
-          color: #000;
-          font-weight: bold;
-          font-size: 1.4em;
-          cursor: pointer; }
-          body .gridC .form .submit:hover {
+          body .gridC .form .reset:hover, body .gridC .form .submit:hover {
             background-color: #034192;
             color: #fff; } }
 
@@ -1144,7 +1038,7 @@ p {
       body .gridC .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1171,42 +1065,37 @@ p {
         padding: 2rem;
         width: 100%;
         color: #000;
-        margin-top: 5rem; }
+        margin-top: 2rem; }
         body .gridC .form label {
           font-size: 2.2em; }
         body .gridC .form input {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
           text-align: center; }
-        body .gridC .form .dato {
+        body .gridC .form .dato, body .gridC .form .radio, body .gridC .form .value, body .gridC .form .Obs {
           background-color: #e2efff;
           padding: 2rem; }
-          body .gridC .form .dato input {
-            width: 25rem;
-            height: 2.5rem; }
+        body .gridC .form .dato input {
+          width: 25rem;
+          height: 2.5rem; }
         body .gridC .form .radio {
-          background-color: #e2efff;
-          padding: 2rem;
           font-size: 1.5em; }
           body .gridC .form .radio input {
             cursor: pointer;
-            height: 2rem; }
-        body .gridC .form .value {
-          background-color: #e2efff;
-          padding: 2rem; }
-        body .gridC .form .Obs {
-          background-color: #e2efff;
-          padding: 2rem; }
-          body .gridC .form .Obs textarea {
-            width: 100%;
-            height: 10rem;
-            background-color: rgba(199, 199, 199, 0.4); }
+            height: 1.5rem;
+            width: 1.5rem; }
+        body .gridC .form .Obs textarea {
+          width: 100%;
+          height: 10rem;
+          background-color: rgba(199, 199, 199, 0.4); }
         body .gridC .form .nov {
           color: #fff;
           padding-top: 4rem; }
           body .gridC .form .nov input {
-            cursor: pointer; }
-        body .gridC .form .reset {
+            cursor: pointer;
+            height: 1.5rem;
+            width: 1.5rem; }
+        body .gridC .form .reset, body .gridC .form .submit {
           width: 15rem;
           height: 3.5rem;
           padding: 0.9rem 2.5rem;
@@ -1218,22 +1107,7 @@ p {
           font-weight: bold;
           font-size: 1.4em;
           cursor: pointer; }
-          body .gridC .form .reset:hover {
-            background-color: #034192;
-            color: #fff; }
-        body .gridC .form .submit {
-          width: 15rem;
-          height: 3.5rem;
-          padding: 0.9rem 2.5rem;
-          background-color: #e2efff;
-          border: none;
-          border-radius: 5rem;
-          transition: all 0.3s ease-in-out;
-          color: #000;
-          font-weight: bold;
-          font-size: 1.4em;
-          cursor: pointer; }
-          body .gridC .form .submit:hover {
+          body .gridC .form .reset:hover, body .gridC .form .submit:hover {
             background-color: #034192;
             color: #fff; } }
 
@@ -1295,7 +1169,7 @@ p {
       body .gridC .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1322,44 +1196,36 @@ p {
         padding: 2rem;
         width: 100%;
         color: #000;
-        margin-top: 5rem; }
+        margin: 2rem; }
         body .gridC .form label {
           font-size: 2.2em; }
         body .gridC .form input {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
           text-align: center; }
-      body .gridC .dato {
+      body .gridC .dato, body .gridC .radio, body .gridC .value, body .gridC .Obs {
         background-color: #e2efff;
         padding: 2rem; }
-        body .gridC .dato input {
-          width: 25rem;
-          height: 2.5rem; }
+      body .gridC .dato input {
+        width: 25rem;
+        height: 2.5rem; }
       body .gridC .radio {
-        background-color: #e2efff;
-        padding: 2rem;
         font-size: 1.5em; }
         body .gridC .radio input {
           padding-right: 1rem;
           cursor: pointer; }
-      body .gridC .value {
-        background-color: #e2efff;
-        padding: 2rem; }
       body .gridC .form-select {
         width: auto; }
-      body .gridC .Obs {
-        background-color: #e2efff;
-        padding: 2rem; }
-        body .gridC .Obs textarea {
-          width: 100%;
-          height: 10rem;
-          background-color: rgba(199, 199, 199, 0.4); }
+      body .gridC .Obs textarea {
+        width: 100%;
+        height: 10rem;
+        background-color: rgba(199, 199, 199, 0.4); }
       body .gridC .nov {
         color: #fff;
         padding-top: 4rem; }
         body .gridC .nov input {
           cursor: pointer; }
-      body .gridC .reset {
+      body .gridC .reset, body .gridC .submit {
         width: 15rem;
         height: 3.5rem;
         padding: 0.9rem 2.5rem;
@@ -1371,22 +1237,7 @@ p {
         font-weight: bold;
         font-size: 1.4em;
         cursor: pointer; }
-        body .gridC .reset:hover {
-          background-color: #034192;
-          color: #fff; }
-      body .gridC .submit {
-        width: 15rem;
-        height: 3.5rem;
-        padding: 0.9rem 2.5rem;
-        background-color: #e2efff;
-        border: none;
-        border-radius: 5rem;
-        transition: all 0.3s ease-in-out;
-        color: #000;
-        font-weight: bold;
-        font-size: 1.4em;
-        cursor: pointer; }
-        body .gridC .submit:hover {
+        body .gridC .reset:hover, body .gridC .submit:hover {
           background-color: #034192;
           color: #fff; } }
 
@@ -1450,7 +1301,7 @@ p {
       body .gridG .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1489,6 +1340,10 @@ p {
             transition: all 0.9s;
             border: 0.5rem solid;
             border-color: #fff; }
+        body .gridG .img .izq picture img:hover {
+          transform: scale(1.6) rotate(360deg) translate(10rem); }
+        body .gridG .img .der picture img:hover {
+          transform: scale(1.4) rotate(360deg) translate(-10rem); }
       body .gridG .video {
         grid-column: 1 / span 4; } }
 
@@ -1551,7 +1406,7 @@ p {
       body .gridG .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1580,29 +1435,22 @@ p {
         justify-content: center; }
         body .gridG .img .column {
           flex: 50%;
-          padding: 0.5rem; }
-        body .gridG .img .colimp picture img {
+          padding: 0.5rem;
+          margin-top: 0.5rem; }
+        body .gridG .img .colimp picture img, body .gridG .img .colpar picture img {
           width: 100%;
           margin-top: 0.5rem;
           border: 0.1rem solid;
           transition: all 0.9s; }
-          body .gridG .img .colimp picture img:hover {
-            transform: scale(1.35) rotate(360deg) translate(10rem);
+          body .gridG .img .colimp picture img:hover, body .gridG .img .colpar picture img:hover {
             transition: all 0.9s;
             border: 0.5rem solid;
             border-color: #fff;
             translate: initial; }
-        body .gridG .img .colpar picture img {
-          width: 100%;
-          margin-top: 0.5rem;
-          border: 0.1rem solid;
-          transition: all 0.9s; }
-          body .gridG .img .colpar picture img:hover {
-            transform: scale(1.4) rotate(360deg) translate(-10rem);
-            transition: all 0.9s;
-            border: 0.5rem solid;
-            border-color: #fff;
-            translate: initial; }
+        body .gridG .img .colimp picture img:hover {
+          transform: scale(1.4) rotate(360deg) translate(10rem); }
+        body .gridG .img .colpar picture img:hover {
+          transform: scale(1.4) rotate(360deg) translate(-10rem); }
       body .gridG .video {
         grid-column: 1 / span 2;
         padding: 0.5rem; }
@@ -1667,7 +1515,7 @@ p {
       body .gridG .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1691,6 +1539,7 @@ p {
       body .gridG .img {
         grid-column: 1 / 2;
         display: flex;
+        margin-top: 0.5rem;
         flex-wrap: wrap;
         padding: 0.5rem; }
         body .gridG .img .column {
@@ -1764,7 +1613,7 @@ p {
       body .gridP .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1785,31 +1634,24 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (min-width: 1024px) {
-      body .gridP .hist {
+      body .gridP .hist, body .gridP .instal {
         grid-column: 1 / span 4;
         margin-top: 2rem;
         transition: all 0.9s; }
-        body .gridP .hist:hover {
+        body .gridP .hist:hover, body .gridP .instal:hover {
           text-shadow: -10px 3px 6px #FFFFFF;
           transform: scale(1.2);
-          background: url(../asset/Image/pescareel32.jpg);
-          background-size: cover;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-      body .gridP .instal {
-        grid-column: 1 / span 4;
-        margin-top: 2rem;
-        transition: all 0.9s; }
-        body .gridP .instal:hover {
-          text-shadow: -10px 3px 6px #FFFFFF;
-          transform: scale(1.2);
-          background: url(../asset/Image/pesca50.jpg);
-          background-size: cover;
-          background-position: center;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP .hist:hover {
+        background: url(../asset/Image/pescareel32.jpg);
+        background-size: cover;
+        background-position: center; }
+      body .gridP .instal:hover {
+        background: url(../asset/Image/pesca50.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridP h2 {
         color: #000;
         text-align: center; }
@@ -1897,7 +1739,7 @@ p {
       body .gridP .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -1918,31 +1760,24 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-      body .gridP .hist {
-        grid-column: 1 / span 2;
+      body .gridP .hist, body .gridP .instal {
+        grid-column: span 2;
         margin-top: 2rem;
         transition: all 0.9s; }
-        body .gridP .hist:hover {
+        body .gridP .hist:hover, body .gridP .instal:hover {
           text-shadow: -10px 3px 6px #FFFFFF;
           transform: scale(1.2);
-          background: url(../asset/Image/pescareel32.jpg);
-          background-size: cover;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-      body .gridP .instal {
-        grid-column: 1 / span 2;
-        margin-top: 2rem;
-        transition: all 0.9s; }
-        body .gridP .instal:hover {
-          text-shadow: -10px 3px 6px #FFFFFF;
-          transform: scale(1.2);
-          background: url(../asset/Image/pesca50.jpg);
-          background-size: cover;
-          background-position: center;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridP .hist:hover {
+        background: url(../asset/Image/pescareel32.jpg);
+        background-size: cover;
+        background-position: center; }
+      body .gridP .instal:hover {
+        background: url(../asset/Image/pesca50.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridP h2 {
         color: #1877f2;
         text-align: center; }
@@ -2029,7 +1864,7 @@ p {
       body .gridP .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -2050,11 +1885,7 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (max-width: 767px) {
-      body .gridP .hist {
-        grid-column: 1 / 2;
-        margin-top: 0.1rem;
-        padding: 2rem; }
-      body .gridP .instal {
+      body .gridP .hist, body .gridP .instal {
         grid-column: 1 / 2;
         margin-top: 0.1rem;
         padding: 2rem; }
@@ -2141,7 +1972,7 @@ p {
       body .gridS .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -2162,72 +1993,43 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (min-width: 1024px) {
-      body .gridS .hab {
+      body .gridS .hab, body .gridS .resto {
         grid-column: span 2;
         background-color: #1877f2;
         margin: 2rem;
         padding: 5rem;
         transition: all 0.9s; }
-        body .gridS .hab:hover {
+        body .gridS .hab:hover, body .gridS .resto:hover {
           transform: scale(1.3, 1.3);
-          transform-origin: left;
           background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-        body .gridS .hab h2 {
+        body .gridS .hab h2, body .gridS .resto h2 {
           color: #000;
           text-align: center; }
-      body .gridS .resto {
-        grid-column: span 2;
-        background-color: #1877f2;
-        margin: 2rem;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .resto:hover {
-          transform: scale(1.3, 1.3);
-          transform-origin: right;
-          background-color: #79d2f5;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-        body .gridS .resto h2 {
-          color: #000;
-          text-align: center; }
-      body .gridS .paquetes {
+      body .gridS .hab:hover {
+        transform-origin: left; }
+      body .gridS .resto:hover {
+        transform-origin: right; }
+      body .gridS .paquetes, body .gridS .sorteo {
         grid-column: 1 / span 4;
         background-color: #1877f2;
         margin: 2rem;
         width: 100%;
         padding: 5rem;
         transition: all 0.9s; }
-        body .gridS .paquetes h2 {
+        body .gridS .paquetes h2, body .gridS .sorteo h2 {
           color: #000;
           text-align: center; }
-        body .gridS .paquetes:hover {
+        body .gridS .paquetes:hover, body .gridS .sorteo:hover {
           transform: scale(1.05);
           background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-      body .gridS .sorteo {
-        grid-column: 1 / span 4;
-        background-color: #1877f2;
-        margin: 2rem;
-        width: 100%;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .sorteo h2 {
-          color: #000;
-          text-align: center; }
-        body .gridS .sorteo ol li {
-          font-size: 1.6em; }
-        body .gridS .sorteo:hover {
-          transform: scale(1.05);
-          background-color: #79d2f5;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+      body .gridS .sorteo ol li {
+        font-size: 1.6em; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body {
@@ -2288,7 +2090,7 @@ p {
       body .gridS .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -2309,72 +2111,45 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      body .gridS .hab, body .gridS .resto {
+        grid-column: span 1;
+        background-color: #000;
+        margin: 2rem;
+        padding: 5rem;
+        transition: all 0.9s; }
+        body .gridS .hab:hover, body .gridS .resto:hover {
+          transform: scale(1.3, 1.3);
+          background-color: #79d2f5;
+          color: #000;
+          transition: all 0.9s;
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+        body .gridS .hab h2, body .gridS .resto h2 {
+          color: #1877f2;
+          text-align: center; }
+        body .gridS .hab p, body .gridS .resto p {
+          line-height: 3rem; }
       body .gridS .hab {
-        grid-column: 1 / 2;
-        background-color: #1877f2;
-        margin: 1rem;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .hab:hover {
-          transform: scale(1.3, 1.3);
-          transform-origin: left;
-          background-color: #79d2f5;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-        body .gridS .hab h2 {
-          color: #000;
-          text-align: center; }
+        transform-origin: left; }
       body .gridS .resto {
-        grid-column: 2 / 3;
-        background-color: #1877f2;
-        margin: 1rem;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .resto:hover {
-          transform: scale(1.3, 1.3);
-          transform-origin: right;
-          background-color: #79d2f5;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-        body .gridS .resto h2 {
-          color: #000;
-          text-align: center; }
-      body .gridS .paquetes {
-        grid-column: 1 / 3;
-        background-color: #1877f2;
+        transform-origin: right; }
+      body .gridS .paquetes, body .gridS .sorteo {
+        grid-column: span 2;
+        background-color: #000;
         margin: 1rem;
         width: 100%;
         padding: 5rem;
         transition: all 0.9s; }
-        body .gridS .paquetes h2 {
-          color: #000;
+        body .gridS .paquetes h2, body .gridS .sorteo h2 {
+          color: #1877f2;
           text-align: center; }
-        body .gridS .paquetes:hover {
+        body .gridS .paquetes:hover, body .gridS .sorteo:hover {
           transform: scaley(1.2);
           background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
-      body .gridS .sorteo {
-        grid-column: 1 / span 4;
-        background-color: #1877f2;
-        margin: 1rem;
-        width: 100%;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .sorteo h2 {
-          color: #000;
-          text-align: center; }
-        body .gridS .sorteo ol li {
-          font-size: 1.6em; }
-        body .gridS .sorteo:hover {
-          transform: scaley(1.2);
-          background-color: #79d2f5;
-          color: #000;
-          transition: all 0.9s;
-          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); } }
+      body .gridS .sorteo ol li {
+        font-size: 1.6em; } }
 
 @media only screen and (max-width: 767px) {
   body {
@@ -2434,7 +2209,7 @@ p {
       body .gridS .back {
         grid-column: 1 / 2;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         left: 0px;
         top: 0px;
         padding-top: 22rem;
@@ -2455,41 +2230,24 @@ p {
           margin: 0 auto; } }
 
 @media only screen and (max-width: 767px) {
-      body .gridS .hab {
+      body .gridS .hab, body .gridS .resto, body .gridS .paquetes, body .gridS .sorteo {
         grid-column: 1 / 2;
-        background-color: #1877f2;
-        margin: 1rem;
+        background-color: #000;
+        margin: 2rem 1rem 1rem 1rem;
         padding: 5rem;
         transition: all 0.9s; }
-      body .gridS .resto {
-        grid-column: 1 / 2;
-        background-color: #1877f2;
-        margin: 1rem;
-        padding: 5rem;
-        transition: all 0.9s; }
-      body .gridS .paquetes {
-        grid-column: 1 / 2;
-        background-color: #1877f2;
-        margin: 1rem;
-        width: 100%;
-        padding: 5rem;
-        transition: all 0.9s; }
-      body .gridS .sorteo {
-        grid-column: 1 / span 4;
-        background-color: #1877f2;
-        margin: 1rem;
-        width: 100%;
-        padding: 5rem;
-        transition: all 0.9s; }
-        body .gridS .sorteo ol li {
-          font-size: 1.3em;
-          color: #000; }
-      body .gridS h2 {
-        color: #000;
-        text-align: center;
-        font-size: 3em; }
-      body .gridS h3 {
+      body .gridS .sorteo ol li {
         font-size: 1.5em; }
+      body .gridS h2 {
+        color: #1877f2;
+        text-align: center;
+        font-size: 2.6em; }
+      body .gridS article {
+        background-color: #000;
+        width: 100%;
+        padding: 0.5rem; }
       body .gridS p {
         font-size: 1.3em;
-        line-height: 1.6em; } }
+        line-height: 1.6em; }
+      body .gridS h3 {
+        font-size: 1.5em; } }

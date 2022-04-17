@@ -9,7 +9,7 @@
             .back {
                 @include baner
             }
-            .hab {
+            .hab, .resto {
                 grid-column: span 2;
                 background-color: map-get($colors , tertiary);
                 margin: 2rem;
@@ -17,7 +17,6 @@
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.3, 1.3);
-                    transform-origin: left;
                     background-color: map-get($colors , hoverserv);
                     color: map-get($colors , secondary);
                     transition: all 0.9s ;
@@ -31,29 +30,19 @@
                 }
             }
             
-            .resto {
-                grid-column: span 2;
-                background-color: map-get($colors , tertiary);
-                margin: 2rem;
-                padding: 5rem; 
-                transition: all 0.9s;
+            .hab {
                 &:hover {
-                    transform: scale(1.3, 1.3);
-                    transform-origin: right;
-                    background-color: map-get($colors , hoverserv);
-                    color: map-get($colors , secondary);
-                    transition: all 0.9s ;
-                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-                    0 0  0 2px rgb(255,255,255),
-                    0.3em 0.3em 1em rgba(0,0,0,0.3);
-                } 
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
+                    transform-origin: left;
                 }
-                
             }
-            .paquetes {
+            
+            .resto {
+                &:hover {
+                    transform-origin: right;
+                }   
+            }
+
+            .paquetes, .sorteo {
                 grid-column: 1 / span 4;
                 background-color: map-get($colors , tertiary);
                 margin: 2rem;
@@ -75,29 +64,9 @@
                 }
             }
             .sorteo {
-                grid-column: 1 / span 4;
-                background-color: map-get($colors , tertiary);
-                margin: 2rem;
-                width: 100%;
-                padding: 5rem;
-                transition: all 0.9s;
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
                 ol li {
                     font-size: 1.6em;
                 }
-                &:hover {
-                    transform: scale(1.05);
-                    background-color: map-get($colors , hoverserv);
-                    color: map-get($colors , secondary);
-                    transition: all 0.9s ;
-                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-                    0 0  0 2px rgb(255,255,255),
-                    0.3em 0.3em 1em rgba(0,0,0,0.3);
-                }
-               
             }  
         }
     }
@@ -114,15 +83,15 @@
             .back {
                 @include baner
             }
-            .hab {
-                grid-column: 1 / 2;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
+
+            .hab, .resto {
+                grid-column: span 1;
+                background-color: map-get($colors , secondary);
+                margin: 2rem;
                 padding: 5rem;
                 transition: all 0.9s;
                 &:hover {
                     transform: scale(1.3, 1.3);
-                    transform-origin: left;
                     background-color: map-get($colors , hoverserv);
                     color: map-get($colors , secondary);
                     transition: all 0.9s ;
@@ -130,43 +99,31 @@
                     0 0  0 2px rgb(255,255,255),
                     0.3em 0.3em 1em rgba(0,0,0,0.3);
                 }  
-                h2 { 
-                    color: map-get($colors , secondary);
+                h2 {
+                    color: map-get($colors , tertiary);
                     text-align: center;
+                } 
+                p {
+                    line-height: 3rem;
                 }
+            }
+            .hab { 
+                transform-origin: left; 
             }
             
             .resto {
-                grid-column: 2 / 3;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
-                padding: 5rem; 
-                transition: all 0.9s;
-                &:hover {
-                    transform: scale(1.3, 1.3);
-                    transform-origin: right;
-                    background-color: map-get($colors , hoverserv);
-                    color: map-get($colors , secondary);
-                    transition: all 0.9s ;
-                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-                    0 0  0 2px rgb(255,255,255),
-                    0.3em 0.3em 1em rgba(0,0,0,0.3);
-                } 
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
-                
+                transform-origin: right;
             }
-            .paquetes {
-                grid-column: 1 / 3;
-                background-color: map-get($colors , tertiary);
+
+            .paquetes, .sorteo {
+                grid-column: span 2;
+                background-color: map-get($colors , secondary);
                 margin: 1rem;
                 width: 100%;
                 padding: 5rem;
                 transition: all 0.9s; 
                 h2 { 
-                    color: map-get($colors , secondary);
+                    color: map-get($colors , tertiary);
                     text-align: center;
                 }
                 &:hover {
@@ -179,30 +136,11 @@
                     0.3em 0.3em 1em rgba(0,0,0,0.3);
                 }
             }
+          
             .sorteo {
-                grid-column: 1 / span 4;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
-                width: 100%;
-                padding: 5rem;
-                transition: all 0.9s;
-                h2 { 
-                    color: map-get($colors , secondary);
-                    text-align: center;
-                }
                 ol li {
                     font-size: 1.6em;
                 }
-                &:hover {
-                    transform: scaley(1.2);
-                    background-color: map-get($colors , hoverserv);
-                    color: map-get($colors , secondary);
-                    transition: all 0.9s ;
-                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-                    0 0  0 2px rgb(255,255,255),
-                    0.3em 0.3em 1em rgba(0,0,0,0.3);
-                }
-               
             }
         }  
     }
@@ -218,59 +156,36 @@
             .back {
                 @include baner
             }
-            .hab {
+            .hab, .resto, .paquetes, .sorteo {
                 grid-column: 1 / 2;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
+                background-color: map-get($colors , secondary);
+                margin: 2rem 1rem 1rem 1rem;
                 padding: 5rem;
                 transition: all 0.9s; 
-            }
-            .resto {
-                grid-column: 1 / 2;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
-                padding: 5rem; 
-                transition: all 0.9s;
-               
-                
-            }
-            .paquetes {
-                grid-column: 1 / 2;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
-                width: 100%;
-                padding: 5rem;
-                transition: all 0.9s; 
-                
             }
             .sorteo {
-                grid-column: 1 / span 4;
-                background-color: map-get($colors , tertiary);
-                margin: 1rem;
-                width: 100%;
-                padding: 5rem;
-                transition: all 0.9s;
-                // h2 { 
-                //     color: map-get($colors , secondary);
-                //     text-align: center;
-                // }
                 ol li {
-                    font-size: 1.3em;
-                    color: #000;
+                    font-size: 1.5em;
+                    color: map-get($colors, primary);
                 }
             }
             h2 {
-                color: map-get($colors , secondary);
+                color: map-get($colors , tertiary);
                 text-align: center;
-                font-size: 3em;
+                font-size: 2.6em;
             } 
-            h3 {
-                font-size: 1.5em ;
+            article {
+                background-color: map-get($colors , secondary);
+                width: 100%;
+                padding: 0.5rem;
             }
             p {
                 font-size: 1.3em;
                 line-height: 1.6em;
             }
-        }  
+            h3 {
+                font-size: 1.5em ;
+            }
+        }
     }   
 }
