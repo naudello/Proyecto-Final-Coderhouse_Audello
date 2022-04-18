@@ -26,8 +26,7 @@
                     text-decoration: none;
                     color: map-get($colors , principal);
                     font-size: 1.5rem;
-                    line-height: 2.5rem;
-                    } 
+                    line-height: 2.5rem; 
                 } 
             }
             
@@ -53,6 +52,10 @@
                     background-color: map-get($colors , hoverbtn);
                 }
             }
+        } 
+        .copryright-text {
+            font-size: 1.2em;
+        }     
     }
 }
 @media only screen and (min-width: 768px) and (max-width:1023px){
@@ -84,7 +87,6 @@
                     color: map-get($colors , principal);
                     font-size: 1.5rem;
                     line-height: 2.5rem;
-                    } 
                 } 
             }
               
@@ -110,6 +112,10 @@
                     background-color: map-get($colors , hoverbtn);
                 }
             }
+        }
+        .copryright-text {
+            font-size: 1.2em;
+        }
     }
 }
 @media only screen and (max-width: 767px) {    
@@ -145,8 +151,7 @@
                         text-decoration: none;
                         color: map-get($colors , principal);
                         font-size: 1.5rem;
-                        line-height: 2.5rem;
-                        } 
+                        line-height: 2.5rem;   
                     } 
                 }
                   
@@ -172,7 +177,11 @@
                         background-color: map-get($colors , hoverbtn);
                     }
                 }
+            }
+            .copryright-text {
+                font-size: 1.2em;
+            }
         }
-        }
+    }    
              
 }

@@ -160,14 +160,14 @@
       background-color: map-get($colors , quarter);
       display: grid;
       grid-template-columns: 50% 50%;
-      grid-template-rows: 7.2rem 70rem auto  45rem 30rem 45rem 20rem;
+      grid-template-rows: 7.2rem auto auto  45rem 30rem 45rem 20rem;
       justify-items: center;
       align-items: center;
       .section1 {
         grid-column: 1 / span 2;
         justify-content: center;
         align-items: center;
-        height: 70rem;
+        height: 50rem;
         background: url(../asset/Image/dorado2.jpg);
         width: 100%;
         background-repeat: no-repeat;

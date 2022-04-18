@@ -221,24 +221,26 @@ p {
           color: #fff;
           font-size: 1.5rem;
           line-height: 2.5rem; }
-  form {
-    align-items: center; }
-    form input {
-      width: 25rem;
-      text-align: center;
-      margin: 1rem; }
-    form button {
-      background-color: #1877f2;
-      color: #fff;
-      font-weight: bold;
-      border-radius: 5rem;
-      cursor: pointer;
-      width: 10rem;
-      height: 2.5rem;
-      border: none;
-      transition: all 0.3s ease-in-out; }
-      form button:hover {
-        background-color: #034192; } }
+    footer form {
+      align-items: center; }
+      footer form input {
+        width: 25rem;
+        text-align: center;
+        margin: 1rem; }
+      footer form button {
+        background-color: #1877f2;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5rem;
+        cursor: pointer;
+        width: 10rem;
+        height: 2.5rem;
+        border: none;
+        transition: all 0.3s ease-in-out; }
+        footer form button:hover {
+          background-color: #034192; }
+    footer .copryright-text {
+      font-size: 1.2em; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   footer {
@@ -268,24 +270,26 @@ p {
           color: #fff;
           font-size: 1.5rem;
           line-height: 2.5rem; }
-  form {
-    align-items: center; }
-    form input {
-      width: 25rem;
-      text-align: center;
-      margin: 1rem; }
-    form button {
-      background-color: #1877f2;
-      color: #fff;
-      font-weight: bold;
-      border-radius: 5rem;
-      cursor: pointer;
-      width: 10rem;
-      height: 2.5rem;
-      border: none;
-      transition: all 0.3s ease-in-out; }
-      form button:hover {
-        background-color: #034192; } }
+    footer form {
+      align-items: center; }
+      footer form input {
+        width: 25rem;
+        text-align: center;
+        margin: 1rem; }
+      footer form button {
+        background-color: #1877f2;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5rem;
+        cursor: pointer;
+        width: 10rem;
+        height: 2.5rem;
+        border: none;
+        transition: all 0.3s ease-in-out; }
+        footer form button:hover {
+          background-color: #034192; }
+    footer .copryright-text {
+      font-size: 1.2em; } }
 
 @media only screen and (max-width: 767px) {
   footer {
@@ -320,24 +324,26 @@ p {
             color: #fff;
             font-size: 1.5rem;
             line-height: 2.5rem; }
-    footer form {
-      align-items: center; }
-      footer form input {
-        width: 25rem;
-        text-align: center;
-        margin: 1rem; }
-      footer form button {
-        background-color: #1877f2;
-        color: #fff;
-        font-weight: bold;
-        border-radius: 5rem;
-        cursor: pointer;
-        width: 10rem;
-        height: 2.5rem;
-        border: none;
-        transition: all 0.3s ease-in-out; }
-        footer form button:hover {
-          background-color: #034192; } }
+      footer section form {
+        align-items: center; }
+        footer section form input {
+          width: 25rem;
+          text-align: center;
+          margin: 1rem; }
+        footer section form button {
+          background-color: #1877f2;
+          color: #fff;
+          font-weight: bold;
+          border-radius: 5rem;
+          cursor: pointer;
+          width: 10rem;
+          height: 2.5rem;
+          border: none;
+          transition: all 0.3s ease-in-out; }
+          footer section form button:hover {
+            background-color: #034192; }
+      footer section .copryright-text {
+        font-size: 1.2em; } }
 
 /*  VISTAS */
 @media only screen and (min-width: 1024px) {
@@ -516,19 +522,20 @@ p {
           margin-top: 1rem;
           margin: 2rem; } }
 
+/* Vista tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body .grid {
     background-color: #e2efff;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 7.2rem 70rem auto  45rem 30rem 45rem 20rem;
+    grid-template-rows: 7.2rem auto auto  45rem 30rem 45rem 20rem;
     justify-items: center;
     align-items: center; }
     body .grid .section1 {
       grid-column: 1 / span 2;
       justify-content: center;
       align-items: center;
-      height: 70rem;
+      height: 50rem;
       background: url(../asset/Image/dorado2.jpg);
       width: 100%;
       background-repeat: no-repeat;
@@ -690,6 +697,7 @@ p {
         margin-top: 1rem;
         margin: 2rem; } }
 
+/* Vista mobile */
 @media only screen and (max-width: 767px) {
   body {
     background-color: #000; }
@@ -1061,7 +1069,7 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridC .form {
         grid-column: 1 / 3;
-        background-color: #1877f2;
+        background-color: #000;
         padding: 2rem;
         width: 100%;
         color: #000;
@@ -1887,7 +1895,7 @@ p {
 @media only screen and (max-width: 767px) {
       body .gridP .hist, body .gridP .instal {
         grid-column: 1 / 2;
-        margin-top: 0.1rem;
+        margin-top: 2rem;
         padding: 2rem; }
       body .gridP h2 {
         color: #1877f2;
@@ -1997,11 +2005,12 @@ p {
         grid-column: span 2;
         background-color: #1877f2;
         margin: 2rem;
+        width: 90%;
         padding: 5rem;
         transition: all 0.9s; }
         body .gridS .hab:hover, body .gridS .resto:hover {
+          text-shadow: -2px 3px 6px #FFFFFF;
           transform: scale(1.3, 1.3);
-          background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
@@ -2009,25 +2018,41 @@ p {
           color: #000;
           text-align: center; }
       body .gridS .hab:hover {
-        transform-origin: left; }
+        transform-origin: left;
+        background: url(../asset/Image/hab.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridS .resto:hover {
-        transform-origin: right; }
+        transform-origin: right;
+        background: url(../asset/Image/restbar.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridS .paquetes, body .gridS .sorteo {
         grid-column: 1 / span 4;
         background-color: #1877f2;
         margin: 2rem;
-        width: 100%;
-        padding: 5rem;
         transition: all 0.9s; }
-        body .gridS .paquetes h2, body .gridS .sorteo h2 {
-          color: #000;
-          text-align: center; }
         body .gridS .paquetes:hover, body .gridS .sorteo:hover {
-          transform: scale(1.05);
-          background-color: #79d2f5;
+          text-shadow: -2px 3px 6px #FFFFFF;
+          transform: scale(1.2);
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridS .paquetes:hover {
+        background: url(../asset/Image/servpesc.jpg);
+        background-size: cover;
+        background-position: center; }
+      body .gridS .sorteo:hover {
+        background-color: #79d2f5; }
+      body .gridS h2 {
+        color: #000;
+        text-align: center; }
+      body .gridS article {
+        background-color: #1877f2;
+        width: 100%;
+        padding: 12rem; }
+      body .gridS p {
+        line-height: 3rem; }
       body .gridS .sorteo ol li {
         font-size: 1.6em; } }
 
@@ -2118,8 +2143,8 @@ p {
         padding: 5rem;
         transition: all 0.9s; }
         body .gridS .hab:hover, body .gridS .resto:hover {
+          text-shadow: -2px 3px 6px #FFFFFF;
           transform: scale(1.3, 1.3);
-          background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
@@ -2128,10 +2153,16 @@ p {
           text-align: center; }
         body .gridS .hab p, body .gridS .resto p {
           line-height: 3rem; }
-      body .gridS .hab {
-        transform-origin: left; }
-      body .gridS .resto {
-        transform-origin: right; }
+      body .gridS .hab:hover {
+        transform-origin: left;
+        background: url(../asset/Image/hab.jpg);
+        background-size: cover;
+        background-position: center; }
+      body .gridS .resto:hover {
+        transform-origin: right;
+        background: url(../asset/Image/restbar.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridS .paquetes, body .gridS .sorteo {
         grid-column: span 2;
         background-color: #000;
@@ -2143,13 +2174,19 @@ p {
           color: #1877f2;
           text-align: center; }
         body .gridS .paquetes:hover, body .gridS .sorteo:hover {
+          text-shadow: -2px 3px 6px #FFFFFF;
           transform: scaley(1.2);
-          background-color: #79d2f5;
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
+      body .gridS .paquetes:hover {
+        background: url(../asset/Image/servpesc.jpg);
+        background-size: cover;
+        background-position: center; }
       body .gridS .sorteo ol li {
-        font-size: 1.6em; } }
+        font-size: 1.6em; }
+      body .gridS .sorteo:hover {
+        background-color: #79d2f5; } }
 
 @media only screen and (max-width: 767px) {
   body {
@@ -2234,7 +2271,7 @@ p {
         grid-column: 1 / 2;
         background-color: #000;
         margin: 2rem 1rem 1rem 1rem;
-        padding: 5rem;
+        padding: 2rem;
         transition: all 0.9s; }
       body .gridS .sorteo ol li {
         font-size: 1.5em; }
