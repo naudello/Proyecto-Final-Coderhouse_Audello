@@ -55,7 +55,7 @@
                 margin: 2rem;
                 transition: all 0.9s; 
                 &:hover {
-                    text-shadow: -2px 3px 6px #FFFFFF;
+                    
                     transform: scale(1.2);
                     color: map-get($colors , secondary);
                     transition: all 0.9s ;
@@ -65,7 +65,8 @@
                 }
             }
             .paquetes {
-                &:hover {
+                &:hover { 
+                    text-shadow: -2px 3px 6px #FFFFFF;
                     background: url(../asset/Image/servpesc.jpg);
                     background-size: cover;
                     background-position: center;
@@ -75,7 +76,29 @@
                 &:hover{
                     background-color: map-get($colors , hoverserv );
                 }
-                
+                .buttons {
+                    margin-top: 5rem;
+                    min-width: 700px;
+                    display: flex;
+                    justify-content: center;
+                  }
+                  a {
+                    margin: 2rem;
+                    text-decoration: none;
+                    font-size: 2.8em;
+                    width: 6rem;
+                    height: 6rem;
+                    line-height: 6rem;
+                    text-align: center;
+                    background: #314652;
+                    color: #f1f1f1;
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+                    transition: all .4s ease-in-out;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
             }
             
             h2 {
@@ -164,8 +187,7 @@
                     text-align: center;
                 }
                 &:hover {
-                    text-shadow: -2px 3px 6px #FFFFFF;
-                    transform: scaley(1.2);
+                    transform: scale(1.08);
                     color: map-get($colors , secondary);
                     transition: all 0.9s ;
                     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -175,6 +197,7 @@
             }
             .paquetes {
                 &:hover {
+                    text-shadow: -2px 3px 6px #FFFFFF;
                     background: url(../asset/Image/servpesc.jpg);
                     background-size: cover;
                     background-position: center;
@@ -187,6 +210,29 @@
                 }
                 &:hover {
                     background-color: map-get($colors , hoverserv );
+                }
+                .buttons {
+                    margin-top: 5rem;
+                    min-width: 70rem;
+                    display: flex;
+                    justify-content: center;
+                  }
+                  a {
+                    margin: 2rem;
+                    text-decoration: none;
+                    font-size: 2.8em;
+                    width: 6rem;
+                    height: 6rem;
+                    line-height: 6rem;
+                    text-align: center;
+                    background: #314652;
+                    color: #f1f1f1;
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+                    transition: all .4s ease-in-out;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
         }  
@@ -214,6 +260,29 @@
                 ol li {
                     font-size: 1.5em;
                     color: map-get($colors, primary);
+                }
+                .buttons {
+                    margin-top: 5rem;
+                    min-width: 35rem;
+                    display: flex;
+                    justify-content: center;
+                  }
+                  a {
+                    margin: 2rem;
+                    text-decoration: none;
+                    font-size: 28px;
+                    width: 6rem;
+                    height: 6rem;
+                    line-height: 6rem;
+                    text-align: center;
+                    background: #314652;
+                    color: #f1f1f1;
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+                    transition: all .4s ease-in-out;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             h2 {

@@ -906,7 +906,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 1024px) and (max-width: 767px) {
       body .gridC .back {
@@ -1040,7 +1040,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
       body .gridC .back {
@@ -1171,7 +1171,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridC .back {
@@ -1303,7 +1303,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 1024px) and (max-width: 767px) {
       body .gridG .back {
@@ -1408,7 +1408,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
       body .gridG .back {
@@ -1517,7 +1517,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridG .back {
@@ -1615,7 +1615,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 1024px) and (max-width: 767px) {
       body .gridP .back {
@@ -1741,7 +1741,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
       body .gridP .back {
@@ -1866,7 +1866,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridP .back {
@@ -1974,7 +1974,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 1024px) and (max-width: 767px) {
       body .gridS .back {
@@ -2033,17 +2033,37 @@ p {
         margin: 2rem;
         transition: all 0.9s; }
         body .gridS .paquetes:hover, body .gridS .sorteo:hover {
-          text-shadow: -2px 3px 6px #FFFFFF;
           transform: scale(1.2);
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
       body .gridS .paquetes:hover {
+        text-shadow: -2px 3px 6px #FFFFFF;
         background: url(../asset/Image/servpesc.jpg);
         background-size: cover;
         background-position: center; }
       body .gridS .sorteo:hover {
         background-color: #79d2f5; }
+      body .gridS .sorteo .buttons {
+        margin-top: 5rem;
+        min-width: 700px;
+        display: flex;
+        justify-content: center; }
+      body .gridS .sorteo a {
+        margin: 2rem;
+        text-decoration: none;
+        font-size: 2.8em;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all .4s ease-in-out; }
+        body .gridS .sorteo a:hover {
+          transform: scale(1.2); }
       body .gridS h2 {
         color: #000;
         text-align: center; }
@@ -2109,7 +2129,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 767px) {
       body .gridS .back {
@@ -2174,19 +2194,39 @@ p {
           color: #1877f2;
           text-align: center; }
         body .gridS .paquetes:hover, body .gridS .sorteo:hover {
-          text-shadow: -2px 3px 6px #FFFFFF;
-          transform: scaley(1.2);
+          transform: scale(1.08);
           color: #000;
           transition: all 0.9s;
           box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
       body .gridS .paquetes:hover {
+        text-shadow: -2px 3px 6px #FFFFFF;
         background: url(../asset/Image/servpesc.jpg);
         background-size: cover;
         background-position: center; }
       body .gridS .sorteo ol li {
         font-size: 1.6em; }
       body .gridS .sorteo:hover {
-        background-color: #79d2f5; } }
+        background-color: #79d2f5; }
+      body .gridS .sorteo .buttons {
+        margin-top: 5rem;
+        min-width: 70rem;
+        display: flex;
+        justify-content: center; }
+      body .gridS .sorteo a {
+        margin: 2rem;
+        text-decoration: none;
+        font-size: 2.8em;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all .4s ease-in-out; }
+        body .gridS .sorteo a:hover {
+          transform: scale(1.2); } }
 
 @media only screen and (max-width: 767px) {
   body {
@@ -2240,7 +2280,7 @@ p {
           font-size: 6.4em;
           background-color: rgba(0, 0, 0, 0.4);
           height: 8rem;
-          width: 80rem;
+          width: 100%;
           margin: 0 auto; } }
     @media only screen and (max-width: 767px) and (max-width: 767px) {
       body .gridS .back {
@@ -2275,6 +2315,26 @@ p {
         transition: all 0.9s; }
       body .gridS .sorteo ol li {
         font-size: 1.5em; }
+      body .gridS .sorteo .buttons {
+        margin-top: 5rem;
+        min-width: 35rem;
+        display: flex;
+        justify-content: center; }
+      body .gridS .sorteo a {
+        margin: 2rem;
+        text-decoration: none;
+        font-size: 28px;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all .4s ease-in-out; }
+        body .gridS .sorteo a:hover {
+          transform: scale(1.2); }
       body .gridS h2 {
         color: #1877f2;
         text-align: center;
