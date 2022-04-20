@@ -12,6 +12,10 @@
             }
 
             .hist, .instal {
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
+                background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(24,119,242,1) 100%);
                 grid-column: 1 / span 4;
                 margin-top: 2rem;
                 transition: all 0.9s;
@@ -57,8 +61,10 @@
                 margin-top: 10rem;
                 width: 100%;
                 h2 {
+                    border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
                     color: map-get($colors , secondary);
-                    background-color: map-get($colors , tertiary);
+                    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(24,119,242,1) 100%);
+                    box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                     margin-bottom: 2rem;
                     width: 100%;
                     transition: all 0.9s;
@@ -94,8 +100,12 @@
             }
 
             .hist, .instal {
+                background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
                 grid-column: span 2;
                 margin-top: 2rem;
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                 transition: all 0.9s;
                 &:hover {
                     text-shadow: -10px 3px 6px #FFFFFF;
@@ -122,7 +132,7 @@
                     }   
             }
             h2 {
-                color: map-get($colors , tertiary);
+                color: map-get($colors , tertiary );
                 text-align: center;
             } 
             article {
@@ -139,8 +149,9 @@
                 margin-top: 10rem;
                 width: 100%;
                 h2 {
+                    border-radius: 9px 9px 9px 9px;
                     color: map-get($colors , tertiary);
-                    background-color: map-get($colors , secondary);
+                    background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
                     margin-bottom: 2rem;
                     width: 100%;
                     transition: all 0.9s;
@@ -173,6 +184,8 @@
                 @include baner
             }
             .hist, .instal {
+                background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
+                text-indent: 2rem;
                 grid-column: 1 / 2;
                 margin-top: 2rem;
                 padding: 2rem;
@@ -198,8 +211,8 @@
                 padding: 2rem;
                 width: 100%;
                 h2 {
-                    color: map-get($colors , secondary);
-                    background-color: map-get($colors , tertiary);
+                    color: map-get($colors , tertiary);
+                    background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
                     margin-bottom: 2rem;
                     width: 100%;
                     font-size: 2.6em;

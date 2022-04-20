@@ -21,6 +21,7 @@
                 }
                 picture {
                     img {
+                        box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                         width: 100%;
                         margin-top: 0.5rem;
                         border: 0.1rem solid;
@@ -90,6 +91,7 @@
                 .colimp, .colpar {
                     picture{
                         img{
+                            box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                             width: 100%;
                             margin-top: 0.5rem;
                             border: 0.1rem solid;

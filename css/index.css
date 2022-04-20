@@ -748,7 +748,7 @@ p {
           margin: 0 0.5rem;
           border-style: inset;
           border-color: #79d2f5;
-          background: rgba(0, 3, 7, 0.8); }
+          background: linear-gradient(to right, #002142 0%, black 100%); }
           body .grid .section2 .sec2 h3 {
             font-size: 2.6em; }
           body .grid .section2 .sec2 p {
@@ -935,13 +935,15 @@ p {
 @media only screen and (min-width: 1024px) {
       body .gridC .form {
         grid-column: 1 / span 4;
-        background-color: #1877f2;
+        background: linear-gradient(to right, #499bea 0%, #1877f2 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
         padding: 4rem 12rem;
         width: 100%;
         color: #000;
         margin-top: 2rem; }
         body .gridC .form label {
-          font-size: 2.2em; }
+          font-size: 1.8em; }
         body .gridC .form input {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
@@ -952,12 +954,11 @@ p {
         body .gridC .form .dato input {
           width: 25rem;
           height: 2.5rem; }
-        body .gridC .form .radio {
-          font-size: 1.5em; }
-          body .gridC .form .radio input {
-            cursor: pointer;
-            height: 1.5rem;
-            width: 1.5rem; }
+        body .gridC .form .radio input {
+          margin: 1rem;
+          cursor: pointer;
+          height: 1.5rem;
+          width: 1.5rem; }
         body .gridC .form .form-select {
           width: 60rem; }
         body .gridC .form .Obs textarea {
@@ -1069,13 +1070,15 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridC .form {
         grid-column: 1 / 3;
-        background-color: #000;
+        background: linear-gradient(to right, #002142 0%, black 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
         padding: 2rem;
         width: 100%;
         color: #000;
         margin-top: 2rem; }
         body .gridC .form label {
-          font-size: 2.2em; }
+          font-size: 1.8em; }
         body .gridC .form input {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
@@ -1086,12 +1089,11 @@ p {
         body .gridC .form .dato input {
           width: 25rem;
           height: 2.5rem; }
-        body .gridC .form .radio {
-          font-size: 1.5em; }
-          body .gridC .form .radio input {
-            cursor: pointer;
-            height: 1.5rem;
-            width: 1.5rem; }
+        body .gridC .form .radio input {
+          margin: 1rem;
+          cursor: pointer;
+          height: 1.5rem;
+          width: 1.5rem; }
         body .gridC .form .Obs textarea {
           width: 100%;
           height: 10rem;
@@ -1200,13 +1202,13 @@ p {
 @media only screen and (max-width: 767px) {
       body .gridC .form {
         grid-column: 1 / 2;
-        background-color: #1877f2;
+        background: linear-gradient(to right, #002142 0%, black 100%);
         padding: 2rem;
         width: 100%;
         color: #000;
         margin: 2rem; }
         body .gridC .form label {
-          font-size: 2.2em; }
+          font-size: 1.3em; }
         body .gridC .form input {
           background-color: rgba(199, 199, 199, 0.4);
           border: 0px;
@@ -1217,11 +1219,10 @@ p {
       body .gridC .dato input {
         width: 25rem;
         height: 2.5rem; }
-      body .gridC .radio {
-        font-size: 1.5em; }
-        body .gridC .radio input {
-          padding-right: 1rem;
-          cursor: pointer; }
+      body .gridC .radio input {
+        margin: 1rem;
+        padding-right: 1rem;
+        cursor: pointer; }
       body .gridC .form-select {
         width: auto; }
       body .gridC .Obs textarea {
@@ -1339,6 +1340,7 @@ p {
           flex: 25%;
           padding: 0.5rem; }
         body .gridG .img picture img {
+          box-shadow: -4px 6px 6px -1px #ababab;
           width: 100%;
           margin-top: 0.5rem;
           border: 0.1rem solid;
@@ -1446,6 +1448,7 @@ p {
           padding: 0.5rem;
           margin-top: 0.5rem; }
         body .gridG .img .colimp picture img, body .gridG .img .colpar picture img {
+          box-shadow: -4px 6px 6px -1px #ababab;
           width: 100%;
           margin-top: 0.5rem;
           border: 0.1rem solid;
@@ -1643,6 +1646,10 @@ p {
 
 @media only screen and (min-width: 1024px) {
       body .gridP .hist, body .gridP .instal {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
+        box-shadow: -4px 6px 6px -1px #ababab;
+        background: linear-gradient(to right, #499bea 0%, #1877f2 100%);
         grid-column: 1 / span 4;
         margin-top: 2rem;
         transition: all 0.9s; }
@@ -1675,8 +1682,10 @@ p {
         margin-top: 10rem;
         width: 100%; }
         body .gridP .ubicacion h2 {
+          border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
           color: #000;
-          background-color: #1877f2;
+          background: linear-gradient(to right, #499bea 0%, #1877f2 100%);
+          box-shadow: -4px 6px 6px -1px #ababab;
           margin-bottom: 2rem;
           width: 100%;
           transition: all 0.9s; }
@@ -1769,8 +1778,12 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridP .hist, body .gridP .instal {
+        background: linear-gradient(to right, #002142 0%, black 100%);
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
         grid-column: span 2;
         margin-top: 2rem;
+        box-shadow: -4px 6px 6px -1px #ababab;
         transition: all 0.9s; }
         body .gridP .hist:hover, body .gridP .instal:hover {
           text-shadow: -10px 3px 6px #FFFFFF;
@@ -1801,8 +1814,9 @@ p {
         margin-top: 10rem;
         width: 100%; }
         body .gridP .ubicacion h2 {
+          border-radius: 9px 9px 9px 9px;
           color: #1877f2;
-          background-color: #000;
+          background: linear-gradient(to right, #002142 0%, black 100%);
           margin-bottom: 2rem;
           width: 100%;
           transition: all 0.9s; }
@@ -1894,6 +1908,8 @@ p {
 
 @media only screen and (max-width: 767px) {
       body .gridP .hist, body .gridP .instal {
+        background: linear-gradient(to right, #002142 0%, black 100%);
+        text-indent: 2rem;
         grid-column: 1 / 2;
         margin-top: 2rem;
         padding: 2rem; }
@@ -1915,8 +1931,8 @@ p {
         padding: 2rem;
         width: 100%; }
         body .gridP .ubicacion h2 {
-          color: #000;
-          background-color: #1877f2;
+          color: #1877f2;
+          background: linear-gradient(to right, #002142 0%, black 100%);
           margin-bottom: 2rem;
           width: 100%;
           font-size: 2.6em; } }
@@ -2002,8 +2018,11 @@ p {
 
 @media only screen and (min-width: 1024px) {
       body .gridS .hab, body .gridS .resto {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
         grid-column: span 2;
-        background-color: #1877f2;
+        background: linear-gradient(to right, #499bea 0%, #1877f2 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
         margin: 2rem;
         width: 90%;
         padding: 5rem;
@@ -2028,8 +2047,11 @@ p {
         background-size: cover;
         background-position: center; }
       body .gridS .paquetes, body .gridS .sorteo {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
         grid-column: 1 / span 4;
-        background-color: #1877f2;
+        background: linear-gradient(to right, #499bea 0%, #1877f2 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
         margin: 2rem;
         transition: all 0.9s; }
         body .gridS .paquetes:hover, body .gridS .sorteo:hover {
@@ -2043,10 +2065,10 @@ p {
         background-size: cover;
         background-position: center; }
       body .gridS .sorteo:hover {
-        background-color: #79d2f5; }
+        background: #79d2f5; }
       body .gridS .sorteo .buttons {
         margin-top: 5rem;
-        min-width: 700px;
+        min-width: 70rem;
         display: flex;
         justify-content: center; }
       body .gridS .sorteo a {
@@ -2056,7 +2078,6 @@ p {
         width: 6rem;
         height: 6rem;
         line-height: 6rem;
-        text-align: center;
         background: #314652;
         color: #f1f1f1;
         border-radius: 50%;
@@ -2157,8 +2178,11 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
       body .gridS .hab, body .gridS .resto {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
         grid-column: span 1;
-        background-color: #000;
+        background: linear-gradient(to right, #002142 0%, black 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
         margin: 2rem;
         padding: 5rem;
         transition: all 0.9s; }
@@ -2184,8 +2208,11 @@ p {
         background-size: cover;
         background-position: center; }
       body .gridS .paquetes, body .gridS .sorteo {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        text-indent: 2rem;
         grid-column: span 2;
-        background-color: #000;
+        background: linear-gradient(to right, #002142 0%, black 100%);
+        box-shadow: -4px 6px 6px -1px #ababab;
         margin: 1rem;
         width: 100%;
         padding: 5rem;
@@ -2206,7 +2233,7 @@ p {
       body .gridS .sorteo ol li {
         font-size: 1.6em; }
       body .gridS .sorteo:hover {
-        background-color: #79d2f5; }
+        background: #79d2f5; }
       body .gridS .sorteo .buttons {
         margin-top: 5rem;
         min-width: 70rem;
@@ -2219,7 +2246,6 @@ p {
         width: 6rem;
         height: 6rem;
         line-height: 6rem;
-        text-align: center;
         background: #314652;
         color: #f1f1f1;
         border-radius: 50%;
@@ -2309,7 +2335,8 @@ p {
 @media only screen and (max-width: 767px) {
       body .gridS .hab, body .gridS .resto, body .gridS .paquetes, body .gridS .sorteo {
         grid-column: 1 / 2;
-        background-color: #000;
+        text-indent: 2rem;
+        background: linear-gradient(to right, #002142 0%, black 100%);
         margin: 2rem 1rem 1rem 1rem;
         padding: 2rem;
         transition: all 0.9s; }
@@ -2327,7 +2354,6 @@ p {
         width: 6rem;
         height: 6rem;
         line-height: 6rem;
-        text-align: center;
         background: #314652;
         color: #f1f1f1;
         border-radius: 50%;

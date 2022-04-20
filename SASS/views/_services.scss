@@ -10,8 +10,11 @@
                 @include baner
             }
             .hab, .resto {
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
                 grid-column: span 2;
-                background-color: map-get($colors , tertiary);
+                background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(24,119,242,1) 100%);
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                 margin: 2rem;
                 width: 90%;
                 padding: 5rem;
@@ -50,12 +53,14 @@
             }
 
             .paquetes, .sorteo {
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
                 grid-column: 1 / span 4;
-                background-color: map-get($colors , tertiary);
+                background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(24,119,242,1) 100%);
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                 margin: 2rem;
                 transition: all 0.9s; 
                 &:hover {
-                    
                     transform: scale(1.2);
                     color: map-get($colors , secondary);
                     transition: all 0.9s ;
@@ -74,11 +79,11 @@
             }
             .sorteo {
                 &:hover{
-                    background-color: map-get($colors , hoverserv );
+                    background: map-get($colors , hoverserv);
                 }
                 .buttons {
                     margin-top: 5rem;
-                    min-width: 700px;
+                    min-width: 70rem;
                     display: flex;
                     justify-content: center;
                   }
@@ -89,7 +94,6 @@
                     width: 6rem;
                     height: 6rem;
                     line-height: 6rem;
-                    text-align: center;
                     background: #314652;
                     color: #f1f1f1;
                     border-radius: 50%;
@@ -135,8 +139,11 @@
             }
 
             .hab, .resto {
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
                 grid-column: span 1;
-                background-color: map-get($colors , secondary);
+                background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                 margin: 2rem;
                 padding: 5rem;
                 transition: all 0.9s;
@@ -176,8 +183,11 @@
             }
 
             .paquetes, .sorteo {
+                border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+                text-indent: 2rem;
                 grid-column: span 2;
-                background-color: map-get($colors , secondary);
+                background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
+                box-shadow: -4px 6px 6px -1px rgba(171,171,171,1);
                 margin: 1rem;
                 width: 100%;
                 padding: 5rem;
@@ -209,7 +219,7 @@
                     font-size: 1.6em;
                 }
                 &:hover {
-                    background-color: map-get($colors , hoverserv );
+                    background: map-get($colors , hoverserv );
                 }
                 .buttons {
                     margin-top: 5rem;
@@ -224,7 +234,6 @@
                     width: 6rem;
                     height: 6rem;
                     line-height: 6rem;
-                    text-align: center;
                     background: #314652;
                     color: #f1f1f1;
                     border-radius: 50%;
@@ -251,7 +260,8 @@
             }
             .hab, .resto, .paquetes, .sorteo {
                 grid-column: 1 / 2;
-                background-color: map-get($colors , secondary);
+                text-indent: 2rem;
+                background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
                 margin: 2rem 1rem 1rem 1rem;
                 padding: 2rem;
                 transition: all 0.9s; 
@@ -274,7 +284,6 @@
                     width: 6rem;
                     height: 6rem;
                     line-height: 6rem;
-                    text-align: center;
                     background: #314652;
                     color: #f1f1f1;
                     border-radius: 50%;
