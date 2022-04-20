@@ -58,7 +58,7 @@
             .ubicacion {
                 grid-column: 1 / span 4;
                 text-align: center;
-                margin-top: 10rem;
+                margin-top: 7rem;
                 width: 100%;
                 h2 {
                     border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
@@ -146,7 +146,7 @@
             .ubicacion {
                 grid-column: 1 / span 2;
                 text-align: center;
-                margin-top: 10rem;
+                margin-top: 7rem;
                 width: 100%;
                 h2 {
                     border-radius: 9px 9px 9px 9px;
@@ -207,13 +207,12 @@
             .ubicacion {
                 grid-column: 1 / 2;
                 text-align: center;
-                margin-top: 10rem;
-                padding: 2rem;
+                margin-top: 2rem;
                 width: 100%;
                 h2 {
                     color: map-get($colors , tertiary);
                     background: linear-gradient(to right, rgb(0, 33, 66) 0%, rgba(0,0,0,1) 100%);
-                    margin-bottom: 2rem;
+                    margin-bottom: 1rem;
                     width: 100%;
                     font-size: 2.6em;
                 }  
